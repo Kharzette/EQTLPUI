@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <XML ID="EQInterfaceDefinitionLanguage">
-	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
+	<Schema xmlns="EverQuestData" 
+		xmlns:dt="EverQuestDataTypes"/>
 	<!-- Created by Drakah -->
 	<StaticAnimation item="Inv_Seperator1">
 		<RelativePosition>true</RelativePosition>

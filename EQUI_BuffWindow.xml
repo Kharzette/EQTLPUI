@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <XML ID="EQInterfaceDefinitionLanguage">
-	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
+	<Schema xmlns="EverQuestData" 
+		xmlns:dt="EverQuestDataTypes"/>
 	<!-- Created by Drakah -->
 	<!-- Buff Window that offers: -->
 	<!-- No Background Placeholders, Buff Names, Horizontal listings, 40 pixel size icons, Resizable for the ability to size it to 1 column or more -->
