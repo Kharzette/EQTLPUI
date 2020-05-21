@@ -3203,7 +3203,7 @@
 	<Label item="GW_AggroPctPlayer0">
 		<ScreenID>GW_AggroPctPlayer0</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>4</Font>
+		<Font>5</Font>
 		<Text>100</Text>
 		<TextColor>
 			<R>255</R>
@@ -3212,8 +3212,8 @@
 		</TextColor>
 		<EQType>305</EQType>
 		<Location>
-			<X>26</X>
-			<Y>26</Y>
+			<X>22</X>
+			<Y>28</Y>
 		</Location>
 		<Size>
 			<CX>36</CX>
