@@ -855,8 +855,32 @@
 		</TextColor>
 		<Font>4</Font>
 	</Button>
-	<Label item="GW_Gauge1_Name">
+	<Gauge item="GW_Gauge1_Name">
 		<ScreenID>Gauge1</ScreenID>
+		<EQType>11</EQType>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>84</X>
+			<Y>234</Y>
+		</Location>
+		<Size>
+			<CX>274</CX>
+			<CY>46</CY>
+		</Size>
+		<TextColor>
+			<B>255</B>
+			<G>255</G>
+			<R>255</R>
+		</TextColor>
+		<TextOffsetX>-334</TextOffsetX>	<!--Label will have the player name-->
+		<TextOffsetY>-1</TextOffsetY>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<GaugeOffsetY>16</GaugeOffsetY>
+	</Gauge>
+	<Label item="GW_Label1_Name">
+		<ScreenID>GW_Label1</ScreenID>
 		<EQType>30</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -879,7 +903,33 @@
 		<Font>4</Font>
 		<Text>Player 1</Text>
 	</Label>
-	<Label item="GW_Gauge2_Name">
+	<Gauge item="GW_Gauge2_Name">
+		<ScreenID>Gauge2</ScreenID>
+		<EQType>12</EQType>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>84</X>
+			<Y>284</Y>
+		</Location>
+		<Size>
+			<CX>274</CX>
+			<CY>46</CY>
+		</Size>
+		<TextColor>
+			<B>255</B>
+			<G>255</G>
+			<R>255</R>
+		</TextColor>
+		<TextOffsetX>-334</TextOffsetX>	<!--Label will have the player name-->
+		<TextOffsetY>-1</TextOffsetY>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<GaugeOffsetY>16</GaugeOffsetY>
+		<Text>Player 1</Text>
+	</Gauge>
+	<Label item="GW_Label2_Name">
+		<ScreenID>GW_Label2</ScreenID>
 		<EQType>31</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -900,9 +950,35 @@
 		<AlignRight>false</AlignRight>
 		<AlignLeft>true</AlignLeft>
 		<Font>4</Font>
-		<Text>Player 2</Text>
+		<Text>Player 1</Text>
 	</Label>
-	<Label item="GW_Gauge3_Name">
+	<Gauge item="GW_Gauge3_Name">
+		<ScreenID>Gauge3</ScreenID>
+		<EQType>13</EQType>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>84</X>
+			<Y>334</Y>
+		</Location>
+		<Size>
+			<CX>274</CX>
+			<CY>46</CY>
+		</Size>
+		<TextColor>
+			<B>255</B>
+			<G>255</G>
+			<R>255</R>
+		</TextColor>
+		<TextOffsetX>-334</TextOffsetX>	<!--Label will have the player name-->
+		<TextOffsetY>-1</TextOffsetY>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<GaugeOffsetY>16</GaugeOffsetY>
+		<Text>Player 1</Text>
+	</Gauge>
+	<Label item="GW_Label3_Name">
+		<ScreenID>GW_Label3</ScreenID>
 		<EQType>32</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -923,9 +999,35 @@
 		<AlignRight>false</AlignRight>
 		<AlignLeft>true</AlignLeft>
 		<Font>4</Font>
-		<Text>Player 3</Text>
+		<Text>Player 1</Text>
 	</Label>
-	<Label item="GW_Gauge4_Name">
+	<Gauge item="GW_Gauge4_Name">
+		<ScreenID>Gauge4</ScreenID>
+		<EQType>14</EQType>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>84</X>
+			<Y>384</Y>
+		</Location>
+		<Size>
+			<CX>274</CX>
+			<CY>46</CY>
+		</Size>
+		<TextColor>
+			<B>255</B>
+			<G>255</G>
+			<R>255</R>
+		</TextColor>
+		<TextOffsetX>-334</TextOffsetX>	<!--Label will have the player name-->
+		<TextOffsetY>-1</TextOffsetY>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<GaugeOffsetY>16</GaugeOffsetY>
+		<Text>Player 1</Text>
+	</Gauge>
+	<Label item="GW_Label4_Name">
+		<ScreenID>GW_Label4</ScreenID>
 		<EQType>33</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -946,9 +1048,35 @@
 		<AlignRight>false</AlignRight>
 		<AlignLeft>true</AlignLeft>
 		<Font>4</Font>
-		<Text>Player 4</Text>
+		<Text>Player 1</Text>
 	</Label>
-	<Label item="GW_Gauge5_Name">
+	<Gauge item="GW_Gauge5_Name">
+		<ScreenID>Gauge5</ScreenID>
+		<EQType>15</EQType>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>84</X>
+			<Y>434</Y>
+		</Location>
+		<Size>
+			<CX>274</CX>
+			<CY>46</CY>
+		</Size>
+		<TextColor>
+			<B>255</B>
+			<G>255</G>
+			<R>255</R>
+		</TextColor>
+		<TextOffsetX>-334</TextOffsetX>	<!--Label will have the player name-->
+		<TextOffsetY>-1</TextOffsetY>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<GaugeOffsetY>16</GaugeOffsetY>
+		<Text>Player 1</Text>
+	</Gauge>
+	<Label item="GW_Label5_Name">
+		<ScreenID>GW_Label5</ScreenID>
 		<EQType>34</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -969,7 +1097,7 @@
 		<AlignRight>false</AlignRight>
 		<AlignLeft>true</AlignLeft>
 		<Font>4</Font>
-		<Text>Player 5</Text>
+		<Text>Player 1</Text>
 	</Label>
 	<Gauge item="GW_Gauge1">
 		<TextColor>
@@ -3386,10 +3514,15 @@
 		<Pieces>GW_Gauge3</Pieces>
 		<Pieces>GW_Gauge4</Pieces>
 		<Pieces>GW_Gauge5</Pieces>
+		<Pieces>GW_Label1_Name</Pieces>
 		<Pieces>GW_Gauge1_Name</Pieces>
+		<Pieces>GW_Label2_Name</Pieces>
 		<Pieces>GW_Gauge2_Name</Pieces>
+		<Pieces>GW_Label3_Name</Pieces>
 		<Pieces>GW_Gauge3_Name</Pieces>
+		<Pieces>GW_Label4_Name</Pieces>
 		<Pieces>GW_Gauge4_Name</Pieces>
+		<Pieces>GW_Label5_Name</Pieces>
 		<Pieces>GW_Gauge5_Name</Pieces>
 		<Pieces>GW_CurrentHP</Pieces>
 		<Pieces>GW_CurrentMana</Pieces>
