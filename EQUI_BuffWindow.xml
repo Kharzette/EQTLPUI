@@ -1235,6 +1235,95 @@
 		</Size>
 		<AlignCenter>true</AlignCenter>
 	</Label>
+
+	<!-- Buff Boxes and number labels from Sabbat's UI -->
+	<Button item="BW_BuffBackground0">
+		<Size>
+			<CX>64</CX>
+			<CY>64</CY>
+		</Size>
+		<Font>10</Font>
+		<Text>1</Text>
+		<TextColor><R>197</R><G>183</G><B>173</B></TextColor>
+		<AlignCenter>true</AlignCenter>
+		<Template>BDT_BlueBuff</Template>
+	</Button>
+	<Button item="BW_BuffBackground1">
+		<Font>10</Font><Text>2</Text>
+		<TextColor><R>197</R><G>183</G><B>173</B></TextColor>
+		<Template>BDT_BlueBuff</Template>
+	</Button>
+	<Button item="BW_BuffBackground2">
+		<Font>10</Font><Text>3</Text>
+		<TextColor><R>197</R><G>183</G><B>173</B></TextColor>
+		<Template>BDT_BlueBuff</Template>
+	</Button>
+	<Button item="BW_BuffBackground3">
+		<Font>10</Font><Text>4</Text>
+		<TextColor><R>197</R><G>183</G><B>173</B></TextColor>
+		<Template>BDT_BlueBuff</Template>
+	</Button>
+	<Button item="BW_BuffBackground4">
+		<Font>10</Font><Text>5</Text>
+		<TextColor><R>197</R><G>183</G><B>173</B></TextColor>
+		<Template>BDT_BlueBuff</Template>
+	</Button>
+	<Button item="BW_BuffBackground5">
+		<Font>10</Font><Text>6</Text>
+		<TextColor><R>197</R><G>183</G><B>173</B></TextColor>
+		<Template>BDT_BlueBuff</Template>
+	</Button>
+	<Button item="BW_BuffBackground6">
+		<Font>10</Font><Text>7</Text>
+		<TextColor><R>197</R><G>183</G><B>173</B></TextColor>
+		<Template>BDT_BlueBuff</Template>
+	</Button>
+	<Button item="BW_BuffBackground7">
+		<Font>10</Font><Text>8</Text>
+		<TextColor><R>197</R><G>183</G><B>173</B></TextColor>
+		<Template>BDT_BlueBuff</Template>
+	</Button>
+	<Button item="BW_BuffBackground8">
+		<Font>10</Font><Text>9</Text>
+		<TextColor><R>197</R><G>183</G><B>173</B></TextColor>
+		<Template>BDT_BlueBuff</Template>
+	</Button>
+	<Button item="BW_BuffBackground9">
+		<Font>10</Font><Text>10</Text>
+		<TextColor><R>197</R><G>183</G><B>173</B></TextColor>
+		<Template>BDT_BlueBuff</Template>
+	</Button>
+	<Button item="BW_BuffBackground10">
+		<Font>10</Font><Text>11</Text>
+		<TextColor><R>197</R><G>183</G><B>173</B></TextColor>
+		<Template>BDT_BlueBuff</Template>
+	</Button>
+	<Button item="BW_BuffBackground11">
+		<Font>10</Font><Text>12</Text>
+		<TextColor><R>197</R><G>183</G><B>173</B></TextColor>
+		<Template>BDT_BlueBuff</Template>
+	</Button>
+	<Button item="BW_BuffBackground12">
+		<Font>10</Font><Text>13</Text>
+		<TextColor><R>197</R><G>183</G><B>173</B></TextColor>
+		<Template>BDT_BlueBuff</Template>
+	</Button>
+	<Button item="BW_BuffBackground13">
+		<Font>10</Font><Text>14</Text>
+		<TextColor><R>197</R><G>183</G><B>173</B></TextColor>
+		<Template>BDT_BlueBuff</Template>
+	</Button>
+	<Button item="BW_BuffBackground14">
+		<Font>10</Font><Text>15</Text>
+		<TextColor><R>197</R><G>183</G><B>173</B></TextColor>
+		<Template>BDT_BlueBuff</Template>
+	</Button>
+	<Button item="BW_BuffBackground15">
+		<Font>10</Font><Text>16</Text>
+		<TextColor><R>197</R><G>183</G><B>173</B></TextColor>
+		<Template>BDT_BlueBuff</Template>
+	</Button>
+
 	<!-- Buff Window Invisable Border Template so the window can be moved -->
 	<Ui2DAnimation item="drakah_Invisable_BuffFrame">
 		<Cycle>true</Cycle>
@@ -1519,6 +1608,35 @@
 		<Pieces>BW_Buff41_Button</Pieces>
 		<Pieces>BW_Buff41_Label</Pieces>
 	</TileLayoutBox>
+	<TileLayoutBox item="BW_SlotBackGrounds">
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<Style_Transparent>true</Style_Transparent>
+		<Spacing>84</Spacing>
+		<SecondarySpacing>10</SecondarySpacing>
+		<HorizontalFirst>false</HorizontalFirst>
+		<AnchorToTop>true</AnchorToTop>
+		<AnchorToLeft>false</AnchorToLeft>
+		<FirstPieceTemplate>true</FirstPieceTemplate>
+		<Pieces>BW_BuffBackground0</Pieces>
+		<Pieces>BW_BuffBackground1</Pieces>
+		<Pieces>BW_BuffBackground2</Pieces>
+		<Pieces>BW_BuffBackground3</Pieces>
+		<Pieces>BW_BuffBackground4</Pieces>
+		<Pieces>BW_BuffBackground5</Pieces>
+		<Pieces>BW_BuffBackground6</Pieces>
+		<Pieces>BW_BuffBackground7</Pieces>
+		<Pieces>BW_BuffBackground8</Pieces>
+		<Pieces>BW_BuffBackground9</Pieces>
+		<Pieces>BW_BuffBackground10</Pieces>
+		<Pieces>BW_BuffBackground11</Pieces>
+		<Pieces>BW_BuffBackground12</Pieces>
+		<Pieces>BW_BuffBackground13</Pieces>
+		<Pieces>BW_BuffBackground14</Pieces>
+		<Pieces>BW_BuffBackground15</Pieces>
+	</TileLayoutBox>
 	<Screen item="BuffWindow">
 		<Text/>
 		<RelativePosition>false</RelativePosition>
@@ -1542,6 +1660,7 @@
 		<Style_Border>true</Style_Border>
 		<Style_Sizable>true</Style_Sizable>
 		<Escapable>false</Escapable>
+		<Pieces>TileLayoutBox:BW_SlotBackGrounds</Pieces>
 		<Pieces>TileLayoutBox:BW_Buttons</Pieces>
 	</Screen>
 </XML>
