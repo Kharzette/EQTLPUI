@@ -5,6 +5,10 @@
 	<!-- Created by Drakah -->
 	<!-- Buff Window that offers: -->
 	<!-- No Background Placeholders, Buff Names, Horizontal listings, 40 pixel size icons, Resizable for the ability to size it to 1 column or more -->
+	<!--
+		Search for horizontal to switch to / from horizontal / vertical...
+		Just comment or uncomment the appropriate sections (should be
+	-->
 	<TextureInfo item="drakah_buffframe.tga">
 		<Size>
 			<CX>16</CX>
@@ -14,10 +18,20 @@
 	<Button item="BW_Buff0_Button">
 		<ScreenID>Buff0</ScreenID>
 		<RelativePosition>true</RelativePosition>
+
+		<!-- Horizontal
+		<Size>
+			<CX>192</CX>
+			<CY>64</CY>
+		</Size>
+		-->
+
+		<!-- Vertical -->
 		<Size>
 			<CX>64</CX>
 			<CY>64</CY>
 		</Size>
+
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
 			<X>2</X>
@@ -314,277 +328,489 @@
 		<DecalOffset>	<X>2</X><Y>2</Y>	</DecalOffset>
 		<DecalSize>	<CX>60</CX><CY>60</CY>	</DecalSize>
 	</Button>
-	
-	<Label item="BW_Buff0_Label">
+
+	<!-- Labels suited for wide horizontal -->	
+	<Label item="BW_Buff0_Label_Hor">
 		<RelativePosition>true</RelativePosition>
-		<Font>4</Font>
 		<EQType>500</EQType>
 		<Text>Katta's Song of Sword Dancing</Text>
-		<TextOffsetY>64</TextOffsetY>
-		<TextColor>
-			<R>197</R>
-			<G>183</G>
-			<B>173</B>
-		</TextColor>
-		<Size>
-			<CX>64</CX>
-			<CY>32</CY>
-		</Size>
+		<Font>6</Font>
+		<Size>	<CX>138</CX><CY>64</CY>	</Size>
 		<AlignCenter>true</AlignCenter>
 	</Label>
-	<Label item="BW_Buff1_Label">
-		<Font>4</Font>
+	<Label item="BW_Buff1_Label_Hor">
+		<Font>6</Font>
 		<EQType>501</EQType>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
 		<AlignCenter>true</AlignCenter>
 	</Label>
-	<Label item="BW_Buff2_Label">
-		<Font>4</Font>
+	<Label item="BW_Buff2_Label_Hor">
+		<Font>6</Font>
 		<EQType>502</EQType>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
 		<AlignCenter>true</AlignCenter>
 	</Label>
-	<Label item="BW_Buff3_Label">
-		<Font>4</Font>
+	<Label item="BW_Buff3_Label_Hor">
+		<Font>6</Font>
 		<EQType>503</EQType>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
 		<AlignCenter>true</AlignCenter>
 	</Label>
-	<Label item="BW_Buff4_Label">
-		<Font>4</Font>
+	<Label item="BW_Buff4_Label_Hor">
+		<Font>6</Font>
 		<EQType>504</EQType>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
 		<AlignCenter>true</AlignCenter>
 	</Label>
-	<Label item="BW_Buff5_Label">
-		<Font>4</Font>
+	<Label item="BW_Buff5_Label_Hor">
+		<Font>6</Font>
 		<EQType>505</EQType>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
 		<AlignCenter>true</AlignCenter>
 	</Label>
-	<Label item="BW_Buff6_Label">
-		<Font>4</Font>
+	<Label item="BW_Buff6_Label_Hor">
+		<Font>6</Font>
 		<EQType>506</EQType>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
 		<AlignCenter>true</AlignCenter>
 	</Label>
-	<Label item="BW_Buff7_Label">
-		<Font>4</Font>
+	<Label item="BW_Buff7_Label_Hor">
+		<Font>6</Font>
 		<EQType>507</EQType>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
 		<AlignCenter>true</AlignCenter>
 	</Label>
-	<Label item="BW_Buff8_Label">
-		<Font>4</Font>
+	<Label item="BW_Buff8_Label_Hor">
+		<Font>6</Font>
 		<EQType>508</EQType>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
 		<AlignCenter>true</AlignCenter>
 	</Label>
-	<Label item="BW_Buff9_Label">
-		<Font>4</Font>
+	<Label item="BW_Buff9_Label_Hor">
+		<Font>6</Font>
 		<EQType>509</EQType>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
 		<AlignCenter>true</AlignCenter>
 	</Label>
-	<Label item="BW_Buff10_Label">
-		<Font>4</Font>
+	<Label item="BW_Buff10_Label_Hor">
+		<Font>6</Font>
 		<EQType>510</EQType>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
 		<AlignCenter>true</AlignCenter>
 	</Label>
-	<Label item="BW_Buff11_Label">
-		<Font>4</Font>
+	<Label item="BW_Buff11_Label_Hor">
+		<Font>6</Font>
 		<EQType>511</EQType>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
 		<AlignCenter>true</AlignCenter>
 	</Label>
-	<Label item="BW_Buff12_Label">
-		<Font>4</Font>
+	<Label item="BW_Buff12_Label_Hor">
+		<Font>6</Font>
 		<EQType>512</EQType>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
 		<AlignCenter>true</AlignCenter>
 	</Label>
-	<Label item="BW_Buff13_Label">
-		<Font>4</Font>
+	<Label item="BW_Buff13_Label_Hor">
+		<Font>6</Font>
 		<EQType>513</EQType>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
 		<AlignCenter>true</AlignCenter>
 	</Label>
-	<Label item="BW_Buff14_Label">
-		<Font>4</Font>
+	<Label item="BW_Buff14_Label_Hor">
+		<Font>6</Font>
 		<EQType>514</EQType>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
 		<AlignCenter>true</AlignCenter>
 	</Label>
-	<Label item="BW_Buff15_Label">
-		<Font>4</Font>
+	<Label item="BW_Buff15_Label_Hor">
+		<Font>6</Font>
 		<EQType>515</EQType>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
 		<AlignCenter>true</AlignCenter>
 	</Label>
-	<Label item="BW_Buff16_Label">
-		<Font>4</Font>
+	<Label item="BW_Buff16_Label_Hor">
+		<Font>6</Font>
 		<EQType>516</EQType>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
 		<AlignCenter>true</AlignCenter>
 	</Label>
-	<Label item="BW_Buff17_Label">
-		<Font>4</Font>
+	<Label item="BW_Buff17_Label_Hor">
+		<Font>6</Font>
 		<EQType>517</EQType>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
 		<AlignCenter>true</AlignCenter>
 	</Label>
-	<Label item="BW_Buff18_Label">
-		<Font>4</Font>
+	<Label item="BW_Buff18_Label_Hor">
+		<Font>6</Font>
 		<EQType>518</EQType>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
 		<AlignCenter>true</AlignCenter>
 	</Label>
-	<Label item="BW_Buff19_Label">
-		<Font>4</Font>
+	<Label item="BW_Buff19_Label_Hor">
+		<Font>6</Font>
 		<EQType>519</EQType>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
 		<AlignCenter>true</AlignCenter>
 	</Label>
-	<Label item="BW_Buff20_Label">
-		<Font>4</Font>
+	<Label item="BW_Buff20_Label_Hor">
+		<Font>6</Font>
 		<EQType>520</EQType>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
 		<AlignCenter>true</AlignCenter>
 	</Label>
-	<Label item="BW_Buff21_Label">
-		<Font>4</Font>
+	<Label item="BW_Buff21_Label_Hor">
+		<Font>6</Font>
 		<EQType>521</EQType>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
 		<AlignCenter>true</AlignCenter>
 	</Label>
-	<Label item="BW_Buff22_Label">
-		<Font>4</Font>
+	<Label item="BW_Buff22_Label_Hor">
+		<Font>6</Font>
 		<EQType>522</EQType>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
 		<AlignCenter>true</AlignCenter>
 	</Label>
-	<Label item="BW_Buff23_Label">
-		<Font>4</Font>
+	<Label item="BW_Buff23_Label_Hor">
+		<Font>6</Font>
 		<EQType>523</EQType>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
 		<AlignCenter>true</AlignCenter>
 	</Label>
-	<Label item="BW_Buff24_Label">
-		<Font>4</Font>
+	<Label item="BW_Buff24_Label_Hor">
+		<Font>6</Font>
 		<EQType>524</EQType>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
 		<AlignCenter>true</AlignCenter>
 	</Label>
-	<Label item="BW_Buff25_Label">
-		<Font>4</Font>
+	<Label item="BW_Buff25_Label_Hor">
+		<Font>6</Font>
 		<EQType>525</EQType>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
 		<AlignCenter>true</AlignCenter>
 	</Label>
-	<Label item="BW_Buff26_Label">
-		<Font>4</Font>
+	<Label item="BW_Buff26_Label_Hor">
+		<Font>6</Font>
 		<EQType>526</EQType>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
 		<AlignCenter>true</AlignCenter>
 	</Label>
-	<Label item="BW_Buff27_Label">
-		<Font>4</Font>
+	<Label item="BW_Buff27_Label_Hor">
+		<Font>6</Font>
 		<EQType>527</EQType>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
 		<AlignCenter>true</AlignCenter>
 	</Label>
-	<Label item="BW_Buff28_Label">
-		<Font>4</Font>
+	<Label item="BW_Buff28_Label_Hor">
+		<Font>6</Font>
 		<EQType>528</EQType>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
 		<AlignCenter>true</AlignCenter>
 	</Label>
-	<Label item="BW_Buff29_Label">
-		<Font>4</Font>
+	<Label item="BW_Buff29_Label_Hor">
+		<Font>6</Font>
 		<EQType>529</EQType>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
 		<AlignCenter>true</AlignCenter>
 	</Label>
-	<Label item="BW_Buff30_Label">
-		<Font>4</Font>
+	<Label item="BW_Buff30_Label_Hor">
+		<Font>6</Font>
 		<EQType>530</EQType>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
 		<AlignCenter>true</AlignCenter>
 	</Label>
-	<Label item="BW_Buff31_Label">
-		<Font>4</Font>
+	<Label item="BW_Buff31_Label_Hor">
+		<Font>6</Font>
 		<EQType>531</EQType>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
 		<AlignCenter>true</AlignCenter>
 	</Label>
-	<Label item="BW_Buff32_Label">
-		<Font>4</Font>
+	<Label item="BW_Buff32_Label_Hor">
+		<Font>6</Font>
 		<EQType>532</EQType>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
 		<AlignCenter>true</AlignCenter>
 	</Label>
-	<Label item="BW_Buff33_Label">
-		<Font>4</Font>
+	<Label item="BW_Buff33_Label_Hor">
+		<Font>6</Font>
 		<EQType>533</EQType>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
 		<AlignCenter>true</AlignCenter>
 	</Label>
-	<Label item="BW_Buff34_Label">
-		<Font>4</Font>
+	<Label item="BW_Buff34_Label_Hor">
+		<Font>6</Font>
 		<EQType>534</EQType>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
 		<AlignCenter>true</AlignCenter>
 	</Label>
-	<Label item="BW_Buff35_Label">
-		<Font>4</Font>
+	<Label item="BW_Buff35_Label_Hor">
+		<Font>6</Font>
 		<EQType>535</EQType>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
 		<AlignCenter>true</AlignCenter>
 	</Label>
-	<Label item="BW_Buff36_Label">
-		<Font>4</Font>
+	<Label item="BW_Buff36_Label_Hor">
+		<Font>6</Font>
 		<EQType>536</EQType>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
 		<AlignCenter>true</AlignCenter>
 	</Label>
-	<Label item="BW_Buff37_Label">
-		<Font>4</Font>
+	<Label item="BW_Buff37_Label_Hor">
+		<Font>6</Font>
 		<EQType>537</EQType>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
 		<AlignCenter>true</AlignCenter>
 	</Label>
-	<Label item="BW_Buff38_Label">
-		<Font>4</Font>
+	<Label item="BW_Buff38_Label_Hor">
+		<Font>6</Font>
 		<EQType>538</EQType>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
 		<AlignCenter>true</AlignCenter>
 	</Label>
-	<Label item="BW_Buff39_Label">
-		<Font>4</Font>
+	<Label item="BW_Buff39_Label_Hor">
+		<Font>6</Font>
 		<EQType>539</EQType>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
 		<AlignCenter>true</AlignCenter>
 	</Label>
-	<Label item="BW_Buff40_Label">
-		<Font>4</Font>
+	<Label item="BW_Buff40_Label_Hor">
+		<Font>6</Font>
 		<EQType>540</EQType>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
 		<AlignCenter>true</AlignCenter>
 	</Label>
-	<Label item="BW_Buff41_Label">
-		<Font>4</Font>
+	<Label item="BW_Buff41_Label_Hor">
+		<Font>6</Font>
 		<EQType>541</EQType>
+		<AlignCenter>true</AlignCenter>
+	</Label>
+
+	<!-- Skinny Vertical -->	
+	<Label item="BW_Buff0_Label_Vert">
+		<RelativePosition>true</RelativePosition>
+		<EQType>500</EQType>
+		<Text>Katta's Song of Sword Dancing</Text>
+		<Font>4</Font>
 		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<Size>	<CX>64</CX><CY>32</CY>	</Size>
+		<AlignCenter>true</AlignCenter>
+	</Label>
+	<Label item="BW_Buff1_Label_Vert">
+		<Font>4</Font>
+		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<EQType>501</EQType>
+		<AlignCenter>true</AlignCenter>
+	</Label>
+	<Label item="BW_Buff2_Label_Vert">
+		<Font>4</Font>
+		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<EQType>502</EQType>
+		<AlignCenter>true</AlignCenter>
+	</Label>
+	<Label item="BW_Buff3_Label_Vert">
+		<Font>4</Font>
+		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<EQType>503</EQType>
+		<AlignCenter>true</AlignCenter>
+	</Label>
+	<Label item="BW_Buff4_Label_Vert">
+		<Font>4</Font>
+		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<EQType>504</EQType>
+		<AlignCenter>true</AlignCenter>
+	</Label>
+	<Label item="BW_Buff5_Label_Vert">
+		<Font>4</Font>
+		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<EQType>505</EQType>
+		<AlignCenter>true</AlignCenter>
+	</Label>
+	<Label item="BW_Buff6_Label_Vert">
+		<Font>4</Font>
+		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<EQType>506</EQType>
+		<AlignCenter>true</AlignCenter>
+	</Label>
+	<Label item="BW_Buff7_Label_Vert">
+		<Font>4</Font>
+		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<EQType>507</EQType>
+		<AlignCenter>true</AlignCenter>
+	</Label>
+	<Label item="BW_Buff8_Label_Vert">
+		<Font>4</Font>
+		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<EQType>508</EQType>
+		<AlignCenter>true</AlignCenter>
+	</Label>
+	<Label item="BW_Buff9_Label_Vert">
+		<Font>4</Font>
+		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<EQType>509</EQType>
+		<AlignCenter>true</AlignCenter>
+	</Label>
+	<Label item="BW_Buff10_Label_Vert">
+		<Font>4</Font>
+		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<EQType>510</EQType>
+		<AlignCenter>true</AlignCenter>
+	</Label>
+	<Label item="BW_Buff11_Label_Vert">
+		<Font>4</Font>
+		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<EQType>511</EQType>
+		<AlignCenter>true</AlignCenter>
+	</Label>
+	<Label item="BW_Buff12_Label_Vert">
+		<Font>4</Font>
+		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<EQType>512</EQType>
+		<AlignCenter>true</AlignCenter>
+	</Label>
+	<Label item="BW_Buff13_Label_Vert">
+		<Font>4</Font>
+		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<EQType>513</EQType>
+		<AlignCenter>true</AlignCenter>
+	</Label>
+	<Label item="BW_Buff14_Label_Vert">
+		<Font>4</Font>
+		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<EQType>514</EQType>
+		<AlignCenter>true</AlignCenter>
+	</Label>
+	<Label item="BW_Buff15_Label_Vert">
+		<Font>4</Font>
+		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<EQType>515</EQType>
+		<AlignCenter>true</AlignCenter>
+	</Label>
+	<Label item="BW_Buff16_Label_Vert">
+		<Font>4</Font>
+		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<EQType>516</EQType>
+		<AlignCenter>true</AlignCenter>
+	</Label>
+	<Label item="BW_Buff17_Label_Vert">
+		<Font>4</Font>
+		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<EQType>517</EQType>
+		<AlignCenter>true</AlignCenter>
+	</Label>
+	<Label item="BW_Buff18_Label_Vert">
+		<Font>4</Font>
+		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<EQType>518</EQType>
+		<AlignCenter>true</AlignCenter>
+	</Label>
+	<Label item="BW_Buff19_Label_Vert">
+		<Font>4</Font>
+		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<EQType>519</EQType>
+		<AlignCenter>true</AlignCenter>
+	</Label>
+	<Label item="BW_Buff20_Label_Vert">
+		<Font>4</Font>
+		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<EQType>520</EQType>
+		<AlignCenter>true</AlignCenter>
+	</Label>
+	<Label item="BW_Buff21_Label_Vert">
+		<Font>4</Font>
+		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<EQType>521</EQType>
+		<AlignCenter>true</AlignCenter>
+	</Label>
+	<Label item="BW_Buff22_Label_Vert">
+		<Font>4</Font>
+		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<EQType>522</EQType>
+		<AlignCenter>true</AlignCenter>
+	</Label>
+	<Label item="BW_Buff23_Label_Vert">
+		<Font>4</Font>
+		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<EQType>523</EQType>
+		<AlignCenter>true</AlignCenter>
+	</Label>
+	<Label item="BW_Buff24_Label_Vert">
+		<Font>4</Font>
+		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<EQType>524</EQType>
+		<AlignCenter>true</AlignCenter>
+	</Label>
+	<Label item="BW_Buff25_Label_Vert">
+		<Font>4</Font>
+		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<EQType>525</EQType>
+		<AlignCenter>true</AlignCenter>
+	</Label>
+	<Label item="BW_Buff26_Label_Vert">
+		<Font>4</Font>
+		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<EQType>526</EQType>
+		<AlignCenter>true</AlignCenter>
+	</Label>
+	<Label item="BW_Buff27_Label_Vert">
+		<Font>4</Font>
+		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<EQType>527</EQType>
+		<AlignCenter>true</AlignCenter>
+	</Label>
+	<Label item="BW_Buff28_Label_Vert">
+		<Font>4</Font>
+		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<EQType>528</EQType>
+		<AlignCenter>true</AlignCenter>
+	</Label>
+	<Label item="BW_Buff29_Label_Vert">
+		<Font>4</Font>
+		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<EQType>529</EQType>
+		<AlignCenter>true</AlignCenter>
+	</Label>
+	<Label item="BW_Buff30_Label_Vert">
+		<Font>4</Font>
+		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<EQType>530</EQType>
+		<AlignCenter>true</AlignCenter>
+	</Label>
+	<Label item="BW_Buff31_Label_Vert">
+		<Font>4</Font>
+		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<EQType>531</EQType>
+		<AlignCenter>true</AlignCenter>
+	</Label>
+	<Label item="BW_Buff32_Label_Vert">
+		<Font>4</Font>
+		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<EQType>532</EQType>
+		<AlignCenter>true</AlignCenter>
+	</Label>
+	<Label item="BW_Buff33_Label_Vert">
+		<Font>4</Font>
+		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<EQType>533</EQType>
+		<AlignCenter>true</AlignCenter>
+	</Label>
+	<Label item="BW_Buff34_Label_Vert">
+		<Font>4</Font>
+		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<EQType>534</EQType>
+		<AlignCenter>true</AlignCenter>
+	</Label>
+	<Label item="BW_Buff35_Label_Vert">
+		<Font>4</Font>
+		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<EQType>535</EQType>
+		<AlignCenter>true</AlignCenter>
+	</Label>
+	<Label item="BW_Buff36_Label_Vert">
+		<Font>4</Font>
+		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<EQType>536</EQType>
+		<AlignCenter>true</AlignCenter>
+	</Label>
+	<Label item="BW_Buff37_Label_Vert">
+		<Font>4</Font>
+		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<EQType>537</EQType>
+		<AlignCenter>true</AlignCenter>
+	</Label>
+	<Label item="BW_Buff38_Label_Vert">
+		<Font>4</Font>
+		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<EQType>538</EQType>
+		<AlignCenter>true</AlignCenter>
+	</Label>
+	<Label item="BW_Buff39_Label_Vert">
+		<Font>4</Font>
+		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<EQType>539</EQType>
+		<AlignCenter>true</AlignCenter>
+	</Label>
+	<Label item="BW_Buff40_Label_Vert">
+		<Font>4</Font>
+		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<EQType>540</EQType>
+		<AlignCenter>true</AlignCenter>
+	</Label>
+	<Label item="BW_Buff41_Label_Vert">
+		<Font>4</Font>
+		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<EQType>541</EQType>
 		<AlignCenter>true</AlignCenter>
 	</Label>
 
 	<!-- Buff Boxes and number labels from Sabbat's UI -->
 	<Button item="BW_BuffBackground0">
-		<Size>
-			<CX>64</CX>
-			<CY>64</CY>
-		</Size>
+
+		<!-- For Horizontal
+		<Size>	<CX>192</CX><CY>64</CY>	</Size>
+		-->
+
+		<!-- For Vertical -->
+		<Size>	<CX>64</CX><CY>64</CY>	</Size>
+
 		<Font>10</Font>
 		<Text>1</Text>
 		<TextColor><R>197</R><G>183</G><B>173</B></TextColor>
@@ -854,112 +1080,228 @@
 			<OverlapBottom>0</OverlapBottom>
 		</Titlebar>
 	</WindowDrawTemplate>
-	<TileLayoutBox item="BW_Buttons">
+
+	<!-- Vertical has labels and buttons in the same layout -->
+	<TileLayoutBox item="BW_ButtonsVertical">
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Style_Transparent>true</Style_Transparent>
+		<HorizontalFirst>false</HorizontalFirst>
 		<Spacing>4</Spacing>
 		<SecondarySpacing>10</SecondarySpacing>
-		<HorizontalFirst>false</HorizontalFirst>
 		<AnchorToTop>true</AnchorToTop>
 		<AnchorToLeft>false</AnchorToLeft>
 		<FirstPieceTemplate>true</FirstPieceTemplate>
 		<Pieces>BW_Buff0_Button</Pieces>
-		<Pieces>BW_Buff0_Label</Pieces>
+		<Pieces>BW_Buff0_Label_Vert</Pieces>
 		<Pieces>BW_Buff1_Button</Pieces>
-		<Pieces>BW_Buff1_Label</Pieces>
+		<Pieces>BW_Buff1_Label_Vert</Pieces>
 		<Pieces>BW_Buff2_Button</Pieces>
-		<Pieces>BW_Buff2_Label</Pieces>
+		<Pieces>BW_Buff2_Label_Vert</Pieces>
 		<Pieces>BW_Buff3_Button</Pieces>
-		<Pieces>BW_Buff3_Label</Pieces>
+		<Pieces>BW_Buff3_Label_Vert</Pieces>
 		<Pieces>BW_Buff4_Button</Pieces>
-		<Pieces>BW_Buff4_Label</Pieces>
+		<Pieces>BW_Buff4_Label_Vert</Pieces>
 		<Pieces>BW_Buff5_Button</Pieces>
-		<Pieces>BW_Buff5_Label</Pieces>
+		<Pieces>BW_Buff5_Label_Vert</Pieces>
 		<Pieces>BW_Buff6_Button</Pieces>
-		<Pieces>BW_Buff6_Label</Pieces>
+		<Pieces>BW_Buff6_Label_Vert</Pieces>
 		<Pieces>BW_Buff7_Button</Pieces>
-		<Pieces>BW_Buff7_Label</Pieces>
+		<Pieces>BW_Buff7_Label_Vert</Pieces>
 		<Pieces>BW_Buff8_Button</Pieces>
-		<Pieces>BW_Buff8_Label</Pieces>
+		<Pieces>BW_Buff8_Label_Vert</Pieces>
 		<Pieces>BW_Buff9_Button</Pieces>
-		<Pieces>BW_Buff9_Label</Pieces>
+		<Pieces>BW_Buff9_Label_Vert</Pieces>
 		<Pieces>BW_Buff10_Button</Pieces>
-		<Pieces>BW_Buff10_Label</Pieces>
+		<Pieces>BW_Buff10_Label_Vert</Pieces>
 		<Pieces>BW_Buff11_Button</Pieces>
-		<Pieces>BW_Buff11_Label</Pieces>
+		<Pieces>BW_Buff11_Label_Vert</Pieces>
 		<Pieces>BW_Buff12_Button</Pieces>
-		<Pieces>BW_Buff12_Label</Pieces>
+		<Pieces>BW_Buff12_Label_Vert</Pieces>
 		<Pieces>BW_Buff13_Button</Pieces>
-		<Pieces>BW_Buff13_Label</Pieces>
+		<Pieces>BW_Buff13_Label_Vert</Pieces>
 		<Pieces>BW_Buff14_Button</Pieces>
-		<Pieces>BW_Buff14_Label</Pieces>
+		<Pieces>BW_Buff14_Label_Vert</Pieces>
 		<Pieces>BW_Buff15_Button</Pieces>
-		<Pieces>BW_Buff15_Label</Pieces>
+		<Pieces>BW_Buff15_Label_Vert</Pieces>
 		<Pieces>BW_Buff16_Button</Pieces>
-		<Pieces>BW_Buff16_Label</Pieces>
+		<Pieces>BW_Buff16_Label_Vert</Pieces>
 		<Pieces>BW_Buff17_Button</Pieces>
-		<Pieces>BW_Buff17_Label</Pieces>
+		<Pieces>BW_Buff17_Label_Vert</Pieces>
 		<Pieces>BW_Buff18_Button</Pieces>
-		<Pieces>BW_Buff18_Label</Pieces>
+		<Pieces>BW_Buff18_Label_Vert</Pieces>
 		<Pieces>BW_Buff19_Button</Pieces>
-		<Pieces>BW_Buff19_Label</Pieces>
+		<Pieces>BW_Buff19_Label_Vert</Pieces>
 		<Pieces>BW_Buff20_Button</Pieces>
-		<Pieces>BW_Buff20_Label</Pieces>
+		<Pieces>BW_Buff20_Label_Vert</Pieces>
 		<Pieces>BW_Buff21_Button</Pieces>
-		<Pieces>BW_Buff21_Label</Pieces>
+		<Pieces>BW_Buff21_Label_Vert</Pieces>
 		<Pieces>BW_Buff22_Button</Pieces>
-		<Pieces>BW_Buff22_Label</Pieces>
+		<Pieces>BW_Buff22_Label_Vert</Pieces>
 		<Pieces>BW_Buff23_Button</Pieces>
-		<Pieces>BW_Buff23_Label</Pieces>
+		<Pieces>BW_Buff23_Label_Vert</Pieces>
 		<Pieces>BW_Buff24_Button</Pieces>
-		<Pieces>BW_Buff24_Label</Pieces>
+		<Pieces>BW_Buff24_Label_Vert</Pieces>
 		<Pieces>BW_Buff25_Button</Pieces>
-		<Pieces>BW_Buff25_Label</Pieces>
+		<Pieces>BW_Buff25_Label_Vert</Pieces>
 		<Pieces>BW_Buff26_Button</Pieces>
-		<Pieces>BW_Buff26_Label</Pieces>
+		<Pieces>BW_Buff26_Label_Vert</Pieces>
 		<Pieces>BW_Buff27_Button</Pieces>
-		<Pieces>BW_Buff27_Label</Pieces>
+		<Pieces>BW_Buff27_Label_Vert</Pieces>
 		<Pieces>BW_Buff28_Button</Pieces>
-		<Pieces>BW_Buff28_Label</Pieces>
+		<Pieces>BW_Buff28_Label_Vert</Pieces>
 		<Pieces>BW_Buff29_Button</Pieces>
-		<Pieces>BW_Buff29_Label</Pieces>
+		<Pieces>BW_Buff29_Label_Vert</Pieces>
 		<Pieces>BW_Buff30_Button</Pieces>
-		<Pieces>BW_Buff30_Label</Pieces>
+		<Pieces>BW_Buff30_Label_Vert</Pieces>
 		<Pieces>BW_Buff31_Button</Pieces>
-		<Pieces>BW_Buff31_Label</Pieces>
+		<Pieces>BW_Buff31_Label_Vert</Pieces>
 		<Pieces>BW_Buff32_Button</Pieces>
-		<Pieces>BW_Buff32_Label</Pieces>
+		<Pieces>BW_Buff32_Label_Vert</Pieces>
 		<Pieces>BW_Buff33_Button</Pieces>
-		<Pieces>BW_Buff33_Label</Pieces>
+		<Pieces>BW_Buff33_Label_Vert</Pieces>
 		<Pieces>BW_Buff34_Button</Pieces>
-		<Pieces>BW_Buff34_Label</Pieces>
+		<Pieces>BW_Buff34_Label_Vert</Pieces>
 		<Pieces>BW_Buff35_Button</Pieces>
-		<Pieces>BW_Buff35_Label</Pieces>
+		<Pieces>BW_Buff35_Label_Vert</Pieces>
 		<Pieces>BW_Buff36_Button</Pieces>
-		<Pieces>BW_Buff36_Label</Pieces>
+		<Pieces>BW_Buff36_Label_Vert</Pieces>
 		<Pieces>BW_Buff37_Button</Pieces>
-		<Pieces>BW_Buff37_Label</Pieces>
+		<Pieces>BW_Buff37_Label_Vert</Pieces>
 		<Pieces>BW_Buff38_Button</Pieces>
-		<Pieces>BW_Buff38_Label</Pieces>
+		<Pieces>BW_Buff38_Label_Vert</Pieces>
 		<Pieces>BW_Buff39_Button</Pieces>
-		<Pieces>BW_Buff39_Label</Pieces>
+		<Pieces>BW_Buff39_Label_Vert</Pieces>
 		<Pieces>BW_Buff40_Button</Pieces>
-		<Pieces>BW_Buff40_Label</Pieces>
+		<Pieces>BW_Buff40_Label_Vert</Pieces>
 		<Pieces>BW_Buff41_Button</Pieces>
-		<Pieces>BW_Buff41_Label</Pieces>
+		<Pieces>BW_Buff41_Label_Vert</Pieces>
 	</TileLayoutBox>
-	<TileLayoutBox item="BW_SlotBackGrounds">
+
+	<TileLayoutBox item="BW_ButtonsHorizontal">
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Style_Transparent>true</Style_Transparent>
-		<Spacing>72</Spacing>
+		<HorizontalFirst>true</HorizontalFirst>
+		<Spacing>10</Spacing>
 		<SecondarySpacing>10</SecondarySpacing>
-		<HorizontalFirst>false</HorizontalFirst>
+		<AnchorToTop>true</AnchorToTop>
+		<AnchorToLeft>false</AnchorToLeft>
+		<FirstPieceTemplate>true</FirstPieceTemplate>
+		<Pieces>BW_Buff0_Button</Pieces>
+		<Pieces>BW_Buff1_Button</Pieces>
+		<Pieces>BW_Buff2_Button</Pieces>
+		<Pieces>BW_Buff3_Button</Pieces>
+		<Pieces>BW_Buff4_Button</Pieces>
+		<Pieces>BW_Buff5_Button</Pieces>
+		<Pieces>BW_Buff6_Button</Pieces>
+		<Pieces>BW_Buff7_Button</Pieces>
+		<Pieces>BW_Buff8_Button</Pieces>
+		<Pieces>BW_Buff9_Button</Pieces>
+		<Pieces>BW_Buff10_Button</Pieces>
+		<Pieces>BW_Buff11_Button</Pieces>
+		<Pieces>BW_Buff12_Button</Pieces>
+		<Pieces>BW_Buff13_Button</Pieces>
+		<Pieces>BW_Buff14_Button</Pieces>
+		<Pieces>BW_Buff15_Button</Pieces>
+		<Pieces>BW_Buff16_Button</Pieces>
+		<Pieces>BW_Buff17_Button</Pieces>
+		<Pieces>BW_Buff18_Button</Pieces>
+		<Pieces>BW_Buff19_Button</Pieces>
+		<Pieces>BW_Buff20_Button</Pieces>
+		<Pieces>BW_Buff21_Button</Pieces>
+		<Pieces>BW_Buff22_Button</Pieces>
+		<Pieces>BW_Buff23_Button</Pieces>
+		<Pieces>BW_Buff24_Button</Pieces>
+		<Pieces>BW_Buff25_Button</Pieces>
+		<Pieces>BW_Buff26_Button</Pieces>
+		<Pieces>BW_Buff27_Button</Pieces>
+		<Pieces>BW_Buff28_Button</Pieces>
+		<Pieces>BW_Buff29_Button</Pieces>
+		<Pieces>BW_Buff30_Button</Pieces>
+		<Pieces>BW_Buff31_Button</Pieces>
+		<Pieces>BW_Buff32_Button</Pieces>
+		<Pieces>BW_Buff33_Button</Pieces>
+		<Pieces>BW_Buff34_Button</Pieces>
+		<Pieces>BW_Buff35_Button</Pieces>
+		<Pieces>BW_Buff36_Button</Pieces>
+		<Pieces>BW_Buff37_Button</Pieces>
+		<Pieces>BW_Buff38_Button</Pieces>
+		<Pieces>BW_Buff39_Button</Pieces>
+		<Pieces>BW_Buff40_Button</Pieces>
+		<Pieces>BW_Buff41_Button</Pieces>
+	</TileLayoutBox>
+
+	<!-- For horizontalish use -->
+	<TileLayoutBox item="BW_BuffLabelsHorizontal">
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<Style_Transparent>true</Style_Transparent>
+		<HorizontalFirst>true</HorizontalFirst>
+		<Spacing>64</Spacing>
+		<SecondarySpacing>10</SecondarySpacing>
+		<AnchorToTop>true</AnchorToTop>
+		<AnchorToLeft>false</AnchorToLeft>
+		<FirstPieceTemplate>true</FirstPieceTemplate>
+		<Pieces>BW_Buff0_Label_Hor</Pieces>
+		<Pieces>BW_Buff1_Label_Hor</Pieces>
+		<Pieces>BW_Buff2_Label_Hor</Pieces>
+		<Pieces>BW_Buff3_Label_Hor</Pieces>
+		<Pieces>BW_Buff4_Label_Hor</Pieces>
+		<Pieces>BW_Buff5_Label_Hor</Pieces>
+		<Pieces>BW_Buff6_Label_Hor</Pieces>
+		<Pieces>BW_Buff7_Label_Hor</Pieces>
+		<Pieces>BW_Buff8_Label_Hor</Pieces>
+		<Pieces>BW_Buff9_Label_Hor</Pieces>
+		<Pieces>BW_Buff10_Label_Hor</Pieces>
+		<Pieces>BW_Buff11_Label_Hor</Pieces>
+		<Pieces>BW_Buff12_Label_Hor</Pieces>
+		<Pieces>BW_Buff13_Label_Hor</Pieces>
+		<Pieces>BW_Buff14_Label_Hor</Pieces>
+		<Pieces>BW_Buff15_Label_Hor</Pieces>
+		<Pieces>BW_Buff16_Label_Hor</Pieces>
+		<Pieces>BW_Buff17_Label_Hor</Pieces>
+		<Pieces>BW_Buff18_Label_Hor</Pieces>
+		<Pieces>BW_Buff19_Label_Hor</Pieces>
+		<Pieces>BW_Buff20_Label_Hor</Pieces>
+		<Pieces>BW_Buff21_Label_Hor</Pieces>
+		<Pieces>BW_Buff22_Label_Hor</Pieces>
+		<Pieces>BW_Buff23_Label_Hor</Pieces>
+		<Pieces>BW_Buff24_Label_Hor</Pieces>
+		<Pieces>BW_Buff25_Label_Hor</Pieces>
+		<Pieces>BW_Buff26_Label_Hor</Pieces>
+		<Pieces>BW_Buff27_Label_Hor</Pieces>
+		<Pieces>BW_Buff28_Label_Hor</Pieces>
+		<Pieces>BW_Buff29_Label_Hor</Pieces>
+		<Pieces>BW_Buff30_Label_Hor</Pieces>
+		<Pieces>BW_Buff31_Label_Hor</Pieces>
+		<Pieces>BW_Buff32_Label_Hor</Pieces>
+		<Pieces>BW_Buff33_Label_Hor</Pieces>
+		<Pieces>BW_Buff34_Label_Hor</Pieces>
+		<Pieces>BW_Buff35_Label_Hor</Pieces>
+		<Pieces>BW_Buff36_Label_Hor</Pieces>
+		<Pieces>BW_Buff37_Label_Hor</Pieces>
+		<Pieces>BW_Buff38_Label_Hor</Pieces>
+		<Pieces>BW_Buff39_Label_Hor</Pieces>
+		<Pieces>BW_Buff40_Label_Hor</Pieces>
+		<Pieces>BW_Buff41_Label_Hor</Pieces>
+	</TileLayoutBox>
+
+	<TileLayoutBox item="BW_SlotBackGroundsHorizontal">
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<Style_Transparent>true</Style_Transparent>
+		<HorizontalFirst>true</HorizontalFirst>
+		<Spacing>10</Spacing>
+		<SecondarySpacing>10</SecondarySpacing>
 		<AnchorToTop>true</AnchorToTop>
 		<AnchorToLeft>false</AnchorToLeft>
 		<FirstPieceTemplate>true</FirstPieceTemplate>
@@ -980,6 +1322,37 @@
 		<Pieces>BW_BuffBackground14</Pieces>
 		<Pieces>BW_BuffBackground15</Pieces>
 	</TileLayoutBox>
+	
+	<TileLayoutBox item="BW_SlotBackGroundsVertical">
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<Style_Transparent>true</Style_Transparent>
+		<HorizontalFirst>false</HorizontalFirst>
+		<Spacing>72</Spacing>
+		<SecondarySpacing>10</SecondarySpacing>
+		<AnchorToTop>true</AnchorToTop>
+		<AnchorToLeft>false</AnchorToLeft>
+		<FirstPieceTemplate>true</FirstPieceTemplate>
+		<Pieces>BW_BuffBackground0</Pieces>
+		<Pieces>BW_BuffBackground1</Pieces>
+		<Pieces>BW_BuffBackground2</Pieces>
+		<Pieces>BW_BuffBackground3</Pieces>
+		<Pieces>BW_BuffBackground4</Pieces>
+		<Pieces>BW_BuffBackground5</Pieces>
+		<Pieces>BW_BuffBackground6</Pieces>
+		<Pieces>BW_BuffBackground7</Pieces>
+		<Pieces>BW_BuffBackground8</Pieces>
+		<Pieces>BW_BuffBackground9</Pieces>
+		<Pieces>BW_BuffBackground10</Pieces>
+		<Pieces>BW_BuffBackground11</Pieces>
+		<Pieces>BW_BuffBackground12</Pieces>
+		<Pieces>BW_BuffBackground13</Pieces>
+		<Pieces>BW_BuffBackground14</Pieces>
+		<Pieces>BW_BuffBackground15</Pieces>
+	</TileLayoutBox>
+	
 	<Screen item="BuffWindow">
 		<Text/>
 		<RelativePosition>false</RelativePosition>
@@ -1003,7 +1376,15 @@
 		<Style_Border>true</Style_Border>
 		<Style_Sizable>true</Style_Sizable>
 		<Escapable>false</Escapable>
-		<Pieces>TileLayoutBox:BW_SlotBackGrounds</Pieces>
-		<Pieces>TileLayoutBox:BW_Buttons</Pieces>
+
+		<!--Horizontal Wide Buffery
+		<Pieces>TileLayoutBox:BW_SlotBackGroundsHorizontal</Pieces>
+		<Pieces>TileLayoutBox:BW_ButtonsHorizontal</Pieces>
+		<Pieces>TileLayoutBox:BW_BuffLabelsHorizontal</Pieces>
+		-->
+
+		<!-- Vertically -->
+		<Pieces>TileLayoutBox:BW_SlotBackGroundsVertical</Pieces>
+		<Pieces>TileLayoutBox:BW_ButtonsVertical</Pieces>
 	</Screen>
 </XML>
