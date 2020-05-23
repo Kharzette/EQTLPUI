@@ -550,253 +550,253 @@
 		<EQType>500</EQType>
 		<Text>Katta's Song of Sword Dancing</Text>
 		<Font>4</Font>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<TextColor>	<R>197</R><G>183</G><B>255</B>	</TextColor>
 		<Size>	<CX>64</CX><CY>32</CY>	</Size>
 		<AlignCenter>true</AlignCenter>
 	</Label>
 	<Label item="BW_Buff1_Label_Vert">
 		<Font>4</Font>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<TextColor>	<R>197</R><G>183</G><B>255</B>	</TextColor>
 		<EQType>501</EQType>
 		<AlignCenter>true</AlignCenter>
 	</Label>
 	<Label item="BW_Buff2_Label_Vert">
 		<Font>4</Font>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<TextColor>	<R>197</R><G>183</G><B>255</B>	</TextColor>
 		<EQType>502</EQType>
 		<AlignCenter>true</AlignCenter>
 	</Label>
 	<Label item="BW_Buff3_Label_Vert">
 		<Font>4</Font>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<TextColor>	<R>197</R><G>183</G><B>255</B>	</TextColor>
 		<EQType>503</EQType>
 		<AlignCenter>true</AlignCenter>
 	</Label>
 	<Label item="BW_Buff4_Label_Vert">
 		<Font>4</Font>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<TextColor>	<R>197</R><G>183</G><B>255</B>	</TextColor>
 		<EQType>504</EQType>
 		<AlignCenter>true</AlignCenter>
 	</Label>
 	<Label item="BW_Buff5_Label_Vert">
 		<Font>4</Font>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<TextColor>	<R>197</R><G>183</G><B>255</B>	</TextColor>
 		<EQType>505</EQType>
 		<AlignCenter>true</AlignCenter>
 	</Label>
 	<Label item="BW_Buff6_Label_Vert">
 		<Font>4</Font>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<TextColor>	<R>197</R><G>183</G><B>255</B>	</TextColor>
 		<EQType>506</EQType>
 		<AlignCenter>true</AlignCenter>
 	</Label>
 	<Label item="BW_Buff7_Label_Vert">
 		<Font>4</Font>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<TextColor>	<R>197</R><G>183</G><B>255</B>	</TextColor>
 		<EQType>507</EQType>
 		<AlignCenter>true</AlignCenter>
 	</Label>
 	<Label item="BW_Buff8_Label_Vert">
 		<Font>4</Font>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<TextColor>	<R>197</R><G>183</G><B>255</B>	</TextColor>
 		<EQType>508</EQType>
 		<AlignCenter>true</AlignCenter>
 	</Label>
 	<Label item="BW_Buff9_Label_Vert">
 		<Font>4</Font>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<TextColor>	<R>197</R><G>183</G><B>255</B>	</TextColor>
 		<EQType>509</EQType>
 		<AlignCenter>true</AlignCenter>
 	</Label>
 	<Label item="BW_Buff10_Label_Vert">
 		<Font>4</Font>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<TextColor>	<R>197</R><G>183</G><B>255</B>	</TextColor>
 		<EQType>510</EQType>
 		<AlignCenter>true</AlignCenter>
 	</Label>
 	<Label item="BW_Buff11_Label_Vert">
 		<Font>4</Font>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<TextColor>	<R>197</R><G>183</G><B>255</B>	</TextColor>
 		<EQType>511</EQType>
 		<AlignCenter>true</AlignCenter>
 	</Label>
 	<Label item="BW_Buff12_Label_Vert">
 		<Font>4</Font>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<TextColor>	<R>197</R><G>183</G><B>255</B>	</TextColor>
 		<EQType>512</EQType>
 		<AlignCenter>true</AlignCenter>
 	</Label>
 	<Label item="BW_Buff13_Label_Vert">
 		<Font>4</Font>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<TextColor>	<R>197</R><G>183</G><B>255</B>	</TextColor>
 		<EQType>513</EQType>
 		<AlignCenter>true</AlignCenter>
 	</Label>
 	<Label item="BW_Buff14_Label_Vert">
 		<Font>4</Font>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<TextColor>	<R>197</R><G>183</G><B>255</B>	</TextColor>
 		<EQType>514</EQType>
 		<AlignCenter>true</AlignCenter>
 	</Label>
 	<Label item="BW_Buff15_Label_Vert">
 		<Font>4</Font>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<TextColor>	<R>197</R><G>183</G><B>255</B>	</TextColor>
 		<EQType>515</EQType>
 		<AlignCenter>true</AlignCenter>
 	</Label>
 	<Label item="BW_Buff16_Label_Vert">
 		<Font>4</Font>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<TextColor>	<R>197</R><G>183</G><B>255</B>	</TextColor>
 		<EQType>516</EQType>
 		<AlignCenter>true</AlignCenter>
 	</Label>
 	<Label item="BW_Buff17_Label_Vert">
 		<Font>4</Font>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<TextColor>	<R>197</R><G>183</G><B>255</B>	</TextColor>
 		<EQType>517</EQType>
 		<AlignCenter>true</AlignCenter>
 	</Label>
 	<Label item="BW_Buff18_Label_Vert">
 		<Font>4</Font>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<TextColor>	<R>197</R><G>183</G><B>255</B>	</TextColor>
 		<EQType>518</EQType>
 		<AlignCenter>true</AlignCenter>
 	</Label>
 	<Label item="BW_Buff19_Label_Vert">
 		<Font>4</Font>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<TextColor>	<R>197</R><G>183</G><B>255</B>	</TextColor>
 		<EQType>519</EQType>
 		<AlignCenter>true</AlignCenter>
 	</Label>
 	<Label item="BW_Buff20_Label_Vert">
 		<Font>4</Font>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<TextColor>	<R>197</R><G>183</G><B>255</B>	</TextColor>
 		<EQType>520</EQType>
 		<AlignCenter>true</AlignCenter>
 	</Label>
 	<Label item="BW_Buff21_Label_Vert">
 		<Font>4</Font>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<TextColor>	<R>197</R><G>183</G><B>255</B>	</TextColor>
 		<EQType>521</EQType>
 		<AlignCenter>true</AlignCenter>
 	</Label>
 	<Label item="BW_Buff22_Label_Vert">
 		<Font>4</Font>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<TextColor>	<R>197</R><G>183</G><B>255</B>	</TextColor>
 		<EQType>522</EQType>
 		<AlignCenter>true</AlignCenter>
 	</Label>
 	<Label item="BW_Buff23_Label_Vert">
 		<Font>4</Font>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<TextColor>	<R>197</R><G>183</G><B>255</B>	</TextColor>
 		<EQType>523</EQType>
 		<AlignCenter>true</AlignCenter>
 	</Label>
 	<Label item="BW_Buff24_Label_Vert">
 		<Font>4</Font>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<TextColor>	<R>197</R><G>183</G><B>255</B>	</TextColor>
 		<EQType>524</EQType>
 		<AlignCenter>true</AlignCenter>
 	</Label>
 	<Label item="BW_Buff25_Label_Vert">
 		<Font>4</Font>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<TextColor>	<R>197</R><G>183</G><B>255</B>	</TextColor>
 		<EQType>525</EQType>
 		<AlignCenter>true</AlignCenter>
 	</Label>
 	<Label item="BW_Buff26_Label_Vert">
 		<Font>4</Font>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<TextColor>	<R>197</R><G>183</G><B>255</B>	</TextColor>
 		<EQType>526</EQType>
 		<AlignCenter>true</AlignCenter>
 	</Label>
 	<Label item="BW_Buff27_Label_Vert">
 		<Font>4</Font>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<TextColor>	<R>197</R><G>183</G><B>255</B>	</TextColor>
 		<EQType>527</EQType>
 		<AlignCenter>true</AlignCenter>
 	</Label>
 	<Label item="BW_Buff28_Label_Vert">
 		<Font>4</Font>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<TextColor>	<R>197</R><G>183</G><B>255</B>	</TextColor>
 		<EQType>528</EQType>
 		<AlignCenter>true</AlignCenter>
 	</Label>
 	<Label item="BW_Buff29_Label_Vert">
 		<Font>4</Font>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<TextColor>	<R>197</R><G>183</G><B>255</B>	</TextColor>
 		<EQType>529</EQType>
 		<AlignCenter>true</AlignCenter>
 	</Label>
 	<Label item="BW_Buff30_Label_Vert">
 		<Font>4</Font>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<TextColor>	<R>197</R><G>183</G><B>255</B>	</TextColor>
 		<EQType>530</EQType>
 		<AlignCenter>true</AlignCenter>
 	</Label>
 	<Label item="BW_Buff31_Label_Vert">
 		<Font>4</Font>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<TextColor>	<R>197</R><G>183</G><B>255</B>	</TextColor>
 		<EQType>531</EQType>
 		<AlignCenter>true</AlignCenter>
 	</Label>
 	<Label item="BW_Buff32_Label_Vert">
 		<Font>4</Font>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<TextColor>	<R>197</R><G>183</G><B>255</B>	</TextColor>
 		<EQType>532</EQType>
 		<AlignCenter>true</AlignCenter>
 	</Label>
 	<Label item="BW_Buff33_Label_Vert">
 		<Font>4</Font>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<TextColor>	<R>197</R><G>183</G><B>255</B>	</TextColor>
 		<EQType>533</EQType>
 		<AlignCenter>true</AlignCenter>
 	</Label>
 	<Label item="BW_Buff34_Label_Vert">
 		<Font>4</Font>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<TextColor>	<R>197</R><G>183</G><B>255</B>	</TextColor>
 		<EQType>534</EQType>
 		<AlignCenter>true</AlignCenter>
 	</Label>
 	<Label item="BW_Buff35_Label_Vert">
 		<Font>4</Font>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<TextColor>	<R>197</R><G>183</G><B>255</B>	</TextColor>
 		<EQType>535</EQType>
 		<AlignCenter>true</AlignCenter>
 	</Label>
 	<Label item="BW_Buff36_Label_Vert">
 		<Font>4</Font>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<TextColor>	<R>197</R><G>183</G><B>255</B>	</TextColor>
 		<EQType>536</EQType>
 		<AlignCenter>true</AlignCenter>
 	</Label>
 	<Label item="BW_Buff37_Label_Vert">
 		<Font>4</Font>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<TextColor>	<R>197</R><G>183</G><B>255</B>	</TextColor>
 		<EQType>537</EQType>
 		<AlignCenter>true</AlignCenter>
 	</Label>
 	<Label item="BW_Buff38_Label_Vert">
 		<Font>4</Font>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<TextColor>	<R>197</R><G>183</G><B>255</B>	</TextColor>
 		<EQType>538</EQType>
 		<AlignCenter>true</AlignCenter>
 	</Label>
 	<Label item="BW_Buff39_Label_Vert">
 		<Font>4</Font>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<TextColor>	<R>197</R><G>183</G><B>255</B>	</TextColor>
 		<EQType>539</EQType>
 		<AlignCenter>true</AlignCenter>
 	</Label>
 	<Label item="BW_Buff40_Label_Vert">
 		<Font>4</Font>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<TextColor>	<R>197</R><G>183</G><B>255</B>	</TextColor>
 		<EQType>540</EQType>
 		<AlignCenter>true</AlignCenter>
 	</Label>
 	<Label item="BW_Buff41_Label_Vert">
 		<Font>4</Font>
-		<TextColor>	<R>197</R><G>183</G><B>173</B>	</TextColor>
+		<TextColor>	<R>197</R><G>183</G><B>255</B>	</TextColor>
 		<EQType>541</EQType>
 		<AlignCenter>true</AlignCenter>
 	</Label>

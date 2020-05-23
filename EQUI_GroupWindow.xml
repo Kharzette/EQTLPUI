@@ -5,7 +5,7 @@
 	<!-- Created by Drakah -->
 	<TextureInfo item="drakah_groupwindow.tga">
 		<Size>
-			<CX>1024</CX>
+			<CX>512</CX>
 			<CY>512</CY>
 		</Size>
 	</TextureInfo>
@@ -138,7 +138,7 @@
 				<Y>0</Y>
 			</Location>
 			<Size>
-				<CX>546</CX>
+				<CX>378</CX>
 				<CY>512</CY>
 			</Size>
 			<Hotspot>
@@ -245,7 +245,7 @@
 			<Y>0</Y>
 		</Location>
 		<Size>
-			<CX>546</CX>
+			<CX>378</CX>
 			<CY>512</CY>
 		</Size>
 		<Animation>Drak_Groupwindow01</Animation>
@@ -439,12 +439,12 @@
 		<ScreenID>PetGauge0</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>55</X>
-			<Y>46</Y>
+			<X>110</X>
+			<Y>92</Y>
 		</Location>
 		<Size>
-			<CX>100</CX>
-			<CY>4</CY>
+			<CX>200</CX>
+			<CY>8</CY>
 		</Size>
 		<GaugeOffsetY>0</GaugeOffsetY>
 		<Style_VScroll>false</Style_VScroll>
@@ -1940,421 +1940,6 @@
 		</GaugeDrawTemplate>
 		<Font>2</Font>
 	</Gauge>
-	<Label item="GW_CurrentHP">
-		<ScreenID>HPNumberLabel</ScreenID>
-		<EQType>70</EQType>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>354</X>
-			<Y>70</Y>
-		</Location>
-		<Size>
-			<CX>164</CX>
-			<CY>28</CY>
-		</Size>
-		<Text>999999/999999</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>true</AlignCenter>
-		<AlignRight>false</AlignRight>
-		<AlignLeft>false</AlignLeft>
-		<Font>5</Font>
-	</Label>
-	<Label item="GW_Level">
-		<ScreenID>GW_LevelClassLabel</ScreenID>
-		<EQType>2</EQType>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>448</X>
-			<Y>30</Y>
-		</Location>
-		<Size>
-			<CX>40</CX>
-			<CY>28</CY>
-		</Size>
-		<Text>100</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>false</AlignRight>
-		<Font>5</Font>
-	</Label>
-	<Label item="GW_CurrentMana">
-		<ScreenID>GW_CurrentMana</ScreenID>
-		<Font>5</Font>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>354</X>
-			<Y>114</Y>
-		</Location>
-		<Size>
-			<CX>164</CX>
-			<CY>28</CY>
-		</Size>
-		<EQType>128</EQType>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-			<Alpha>255</Alpha>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>true</AlignCenter>
-		<AlignRight>false</AlignRight>
-		<AlignLeft>false</AlignLeft>
-		<Text>999999/999999</Text>
-	</Label>
-	<Label item="GW_ACNumber">
-		<ScreenID>GW_ACNumberLabel</ScreenID>
-		<EQType>22</EQType>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>364</X>
-			<Y>158</Y>
-		</Location>
-		<Size>
-			<CX>64</CX>
-			<CY>28</CY>
-		</Size>
-		<Text>9999</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>true</AlignRight>
-		<Font>5</Font>
-	</Label>
-	<Label item="GW_Divider">
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>432</X>
-			<Y>158</Y>
-		</Location>
-		<Size>
-			<CX>16</CX>
-			<CY>28</CY>
-		</Size>
-		<Text>/</Text>
-		<TextColor>
-			<R>192</R>
-			<G>192</G>
-			<B>192</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>false</AlignRight>
-		<Font>5</Font>
-	</Label>
-	<Label item="GW_ATKNumber">
-		<ScreenID>GW_ATKNumberLabel</ScreenID>
-		<EQType>23</EQType>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>442</X>
-			<Y>158</Y>
-		</Location>
-		<Size>
-			<CX>64</CX>
-			<CY>28</CY>
-		</Size>
-		<Text>9999</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>false</AlignRight>
-		<Font>5</Font>
-	</Label>
-	<Label item="GW_STRNumber">
-		<ScreenID>GW_STRNumberLabel</ScreenID>
-		<EQType>5</EQType>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>432</X>
-			<Y>193</Y>
-		</Location>
-		<Size>
-			<CX>100</CX>
-			<CY>28</CY>
-		</Size>
-		<Text>2555</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>false</AlignRight>
-		<Font>6</Font>
-	</Label>
-	<Label item="GW_STANumber">
-		<ScreenID>GW_STANumberLabel</ScreenID>
-		<EQType>6</EQType>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>432</X>
-			<Y>215</Y>
-		</Location>
-		<Size>
-			<CX>100</CX>
-			<CY>28</CY>
-		</Size>
-		<Text>2555</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>false</AlignRight>
-		<Font>6</Font>
-	</Label>
-	<Label item="GW_AGINumber">
-		<ScreenID>GW_AGINumberLabel</ScreenID>
-		<EQType>8</EQType>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>432</X>
-			<Y>237</Y>
-		</Location>
-		<Size>
-			<CX>100</CX>
-			<CY>28</CY>
-		</Size>
-		<Text>2555</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>false</AlignRight>
-		<Font>6</Font>
-	</Label>
-	<Label item="GW_DEXNumber">
-		<ScreenID>GW_DEXNumberLabel</ScreenID>
-		<EQType>7</EQType>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>432</X>
-			<Y>259</Y>
-		</Location>
-		<Size>
-			<CX>100</CX>
-			<CY>28</CY>
-		</Size>
-		<Text>2555</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>false</AlignRight>
-		<Font>6</Font>
-	</Label>
-	<Label item="GW_WISNumber">
-		<ScreenID>GW_WISNumberLabel</ScreenID>
-		<EQType>9</EQType>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>432</X>
-			<Y>281</Y>
-		</Location>
-		<Size>
-			<CX>100</CX>
-			<CY>28</CY>
-		</Size>
-		<Text>2555</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>false</AlignRight>
-		<Font>6</Font>
-	</Label>
-	<Label item="GW_INTNumber">
-		<ScreenID>GW_INTNumberLabel</ScreenID>
-		<EQType>10</EQType>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>432</X>
-			<Y>303</Y>
-		</Location>
-		<Size>
-			<CX>100</CX>
-			<CY>28</CY>
-		</Size>
-		<Text>2555</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>false</AlignRight>
-		<Font>6</Font>
-	</Label>
-	<Label item="GW_CHANumber">
-		<ScreenID>GW_CHANumberLabel</ScreenID>
-		<EQType>11</EQType>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>432</X>
-			<Y>325</Y>
-		</Location>
-		<Size>
-			<CX>100</CX>
-			<CY>28</CY>
-		</Size>
-		<Text>2555</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>false</AlignRight>
-		<Font>6</Font>
-	</Label>
-	<Label item="GW_PoisonNumber">
-		<ScreenID>GW_PoisonNumberLabel</ScreenID>
-		<EQType>12</EQType>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>432</X>
-			<Y>361</Y>
-		</Location>
-		<Size>
-			<CX>128</CX>
-			<CY>28</CY>
-		</Size>
-		<Text>2555</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>false</AlignRight>
-		<Font>6</Font>
-	</Label>
-	<Label item="GW_MagicNumber">
-		<ScreenID>GW_MagicNumberLabel</ScreenID>
-		<EQType>16</EQType>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>432</X>
-			<Y>383</Y>
-		</Location>
-		<Size>
-			<CX>128</CX>
-			<CY>28</CY>
-		</Size>
-		<Text>2555</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>false</AlignRight>
-		<Font>6</Font>
-	</Label>
-	<Label item="GW_DiseaseNumber">
-		<ScreenID>GW_DiseaseNumberLabel</ScreenID>
-		<EQType>13</EQType>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>432</X>
-			<Y>405</Y>
-		</Location>
-		<Size>
-			<CX>128</CX>
-			<CY>28</CY>
-		</Size>
-		<Text>2555</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>false</AlignRight>
-		<Font>6</Font>
-	</Label>
-	<Label item="GW_FireNumber">
-		<ScreenID>GW_FireNumberLabel</ScreenID>
-		<EQType>14</EQType>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>432</X>
-			<Y>427</Y>
-		</Location>
-		<Size>
-			<CX>128</CX>
-			<CY>28</CY>
-		</Size>
-		<Text>2555</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>false</AlignRight>
-		<Font>6</Font>
-	</Label>
-	<Label item="GW_ColdNumber">
-		<ScreenID>GW_ColdNumberLabel</ScreenID>
-		<EQType>15</EQType>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>432</X>
-			<Y>449</Y>
-		</Location>
-		<Size>
-			<CX>128</CX>
-			<CY>28</CY>
-		</Size>
-		<Text>2555</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>false</AlignRight>
-		<Font>6</Font>
-	</Label>
 	<Label item="GW_HPLabel1">
 		<ScreenID>HPLabel1</ScreenID>
 		<EQType>35</EQType>
@@ -3474,7 +3059,7 @@
 			<Y>100</Y>
 		</Location>
 		<Size>
-			<CX>546</CX>
+			<CX>378</CX>
 			<CY>512</CY>
 		</Size>
 		<Text>Group Window</Text>
@@ -3524,24 +3109,6 @@
 		<Pieces>GW_Gauge4_Name</Pieces>
 		<Pieces>GW_Label5_Name</Pieces>
 		<Pieces>GW_Gauge5_Name</Pieces>
-		<Pieces>GW_CurrentHP</Pieces>
-		<Pieces>GW_CurrentMana</Pieces>
-		<Pieces>GW_Level</Pieces>
-		<Pieces>GW_ACNumber</Pieces>
-		<Pieces>GW_Divider</Pieces>
-		<Pieces>GW_ATKNumber</Pieces>
-		<Pieces>GW_STRNumber</Pieces>
-		<Pieces>GW_STANumber</Pieces>
-		<Pieces>GW_AGINumber</Pieces>
-		<Pieces>GW_DEXNumber</Pieces>
-		<Pieces>GW_WISNumber</Pieces>
-		<Pieces>GW_INTNumber</Pieces>
-		<Pieces>GW_CHANumber</Pieces>
-		<Pieces>GW_PoisonNumber</Pieces>
-		<Pieces>GW_MagicNumber</Pieces>
-		<Pieces>GW_DiseaseNumber</Pieces>
-		<Pieces>GW_FireNumber</Pieces>
-		<Pieces>GW_ColdNumber</Pieces>
 		<Pieces>GW_HPLabel1</Pieces>
 		<Pieces>GW_HPPercLabel1</Pieces>
 		<Pieces>GW_HPLabel2</Pieces>
