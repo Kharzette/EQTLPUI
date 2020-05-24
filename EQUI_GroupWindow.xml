@@ -22,11 +22,11 @@
 			<Texture>drakah_targetwindow.tga</Texture>
 			<Location>
 				<X>0</X>
-				<Y>218</Y>
+				<Y>436</Y>
 			</Location>
 			<Size>
-				<CX>100</CX>
-				<CY>8</CY>
+				<CX>200</CX>
+				<CY>16</CY>
 			</Size>
 			<Hotspot>
 				<X>0</X>
@@ -41,11 +41,11 @@
 			<Texture>drakah_targetwindow.tga</Texture>
 			<Location>
 				<X>0</X>
-				<Y>228</Y>
+				<Y>456</Y>
 			</Location>
 			<Size>
-				<CX>100</CX>
-				<CY>8</CY>
+				<CX>200</CX>
+				<CY>16</CY>
 			</Size>
 			<Hotspot>
 				<X>0</X>
@@ -60,11 +60,11 @@
 			<Texture>drakah_targetwindow.tga</Texture>
 			<Location>
 				<X>0</X>
-				<Y>238</Y>
+				<Y>476</Y>
 			</Location>
 			<Size>
-				<CX>100</CX>
-				<CY>8</CY>
+				<CX>200</CX>
+				<CY>16</CY>
 			</Size>
 			<Hotspot>
 				<X>0</X>
@@ -79,11 +79,11 @@
 			<Texture>drakah_targetwindow.tga</Texture>
 			<Location>
 				<X>0</X>
-				<Y>248</Y>
+				<Y>496</Y>
 			</Location>
 			<Size>
-				<CX>100</CX>
-				<CY>8</CY>
+				<CX>200</CX>
+				<CY>16</CY>
 			</Size>
 			<Hotspot>
 				<X>0</X>
@@ -97,12 +97,12 @@
 		<Frames>
 			<Texture>drakah_targetwindow.tga</Texture>
 			<Location>
-				<X>106</X>
-				<Y>228</Y>
+				<X>212</X>
+				<Y>456</Y>
 			</Location>
 			<Size>
-				<CX>4</CX>
-				<CY>8</CY>
+				<CX>8</CX>
+				<CY>16</CY>
 			</Size>
 			<Hotspot>
 				<X>0</X>
@@ -116,12 +116,12 @@
 		<Frames>
 			<Texture>drakah_targetwindow.tga</Texture>
 			<Location>
-				<X>102</X>
-				<Y>218</Y>
+				<X>204</X>
+				<Y>436</Y>
 			</Location>
 			<Size>
-				<CX>4</CX>
-				<CY>8</CY>
+				<CX>8</CX>
+				<CY>16</CY>
 			</Size>
 			<Hotspot>
 				<X>0</X>
