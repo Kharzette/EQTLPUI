@@ -887,11 +887,6 @@
 		<TextColor><R>197</R><G>183</G><B>173</B></TextColor>
 		<Template>BDT_BlueBuff</Template>
 	</Button>
-	<Button item="BW_BuffBackground15">
-		<Font>10</Font><Text>16</Text>
-		<TextColor><R>197</R><G>183</G><B>173</B></TextColor>
-		<Template>BDT_BlueBuff</Template>
-	</Button>
 
 	<!-- Buff Window Invisable Border Template so the window can be moved -->
 	<Ui2DAnimation item="drakah_Invisable_BuffFrame">
@@ -1320,7 +1315,6 @@
 		<Pieces>BW_BuffBackground12</Pieces>
 		<Pieces>BW_BuffBackground13</Pieces>
 		<Pieces>BW_BuffBackground14</Pieces>
-		<Pieces>BW_BuffBackground15</Pieces>
 	</TileLayoutBox>
 	
 	<TileLayoutBox item="BW_SlotBackGroundsVertical">
@@ -1350,7 +1344,6 @@
 		<Pieces>BW_BuffBackground12</Pieces>
 		<Pieces>BW_BuffBackground13</Pieces>
 		<Pieces>BW_BuffBackground14</Pieces>
-		<Pieces>BW_BuffBackground15</Pieces>
 	</TileLayoutBox>
 	
 	<Screen item="BuffWindow">

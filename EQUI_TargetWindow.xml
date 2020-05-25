@@ -195,8 +195,8 @@
 			<B>255</B>
 		</TextColor>
 		<RelativePosition>true</RelativePosition>
-		<TextOffsetX>-200</TextOffsetX>
-		<TextOffsetY>-200</TextOffsetY>
+		<TextOffsetX>-100</TextOffsetX>
+		<TextOffsetY>-100</TextOffsetY>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
@@ -238,15 +238,10 @@
 		</Size>
 	</Gauge>
 	<Gauge item="Target_TargetOfTarget_HP">
-		<Font>4</Font>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 		<RelativePosition>true</RelativePosition>
 		<GaugeOffsetY>42</GaugeOffsetY>
-		<TextOffsetX>22</TextOffsetX>
+		<TextOffsetX>-100</TextOffsetX>
+		<TextOffsetY>-100</TextOffsetY>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
@@ -270,8 +265,6 @@
 			<LinesFill>A_Drakah_GaugeLinesFill</LinesFill>
 		</GaugeDrawTemplate>
 		<GaugeOffsetX>0</GaugeOffsetX>
-		<TextOffsetY>2</TextOffsetY>
-		<Text>Target of Target</Text>
 		<AutoStretch>true</AutoStretch>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<LeftAnchorToLeft>false</LeftAnchorToLeft>
@@ -295,7 +288,7 @@
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
-		<Font>4</Font>
+		<Font>6</Font>
 		<AutoStretch>true</AutoStretch>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<LeftAnchorToLeft>false</LeftAnchorToLeft>
@@ -303,12 +296,13 @@
 		<BottomAnchorOffset>4</BottomAnchorOffset>
 		<LeftAnchorOffset>368</LeftAnchorOffset>
 		<RightAnchorOffset>288</RightAnchorOffset>
-		<TopAnchorOffset>112</TopAnchorOffset>
+		<TopAnchorOffset>29</TopAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 	</Label>
 	<Label item="Target_HP_Name">
 		<ScreenID>Target_HP_Name</ScreenID>
 		<RelativePosition>true</RelativePosition>
+		<Font>8</Font>
 		<Text>A Very Long Target Name</Text>
 		<TextColor>
 			<R>255</R>
@@ -326,8 +320,31 @@
 		<TopAnchorToTop>false</TopAnchorToTop>
 		<BottomAnchorOffset>36</BottomAnchorOffset>
 		<LeftAnchorOffset>488</LeftAnchorOffset>
-		<TopAnchorOffset>68</TopAnchorOffset>
+		<TopAnchorOffset>63</TopAnchorOffset>
 		<RightAnchorOffset>230</RightAnchorOffset>
+	</Label>
+	<Label item="TargetOfTargetName">
+		<RelativePosition>true</RelativePosition>
+		<Font>8</Font>
+		<Text>A Very Long Target Name</Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>true</AlignCenter>
+		<AlignRight>false</AlignRight>
+		<EQType>135</EQType>
+		<AutoStretch>true</AutoStretch>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<LeftAnchorToLeft>false</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<TopAnchorToTop>false</TopAnchorToTop>
+		<BottomAnchorOffset>36</BottomAnchorOffset>
+		<LeftAnchorOffset>488</LeftAnchorOffset>
+		<TopAnchorOffset>63</TopAnchorOffset>
+		<RightAnchorOffset>-280</RightAnchorOffset>
 	</Label>
 	<Label item="Target_HPPercLabel">
 		<ScreenID>HPPercLabel</ScreenID>
@@ -342,7 +359,7 @@
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
-		<Font>4</Font>
+		<Font>6</Font>
 		<AutoStretch>true</AutoStretch>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<LeftAnchorToLeft>false</LeftAnchorToLeft>
@@ -350,7 +367,7 @@
 		<BottomAnchorOffset>4</BottomAnchorOffset>
 		<LeftAnchorOffset>146</LeftAnchorOffset>
 		<RightAnchorOffset>66</RightAnchorOffset>
-		<TopAnchorOffset>32</TopAnchorOffset>
+		<TopAnchorOffset>29</TopAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 	</Label>
 	<Button item="Target_Buff0_Button">
@@ -914,7 +931,7 @@
 			<CX>20</CX>
 			<CY>15</CY>
 		</Size>
-		<Font>2</Font>
+		<Font>4</Font>
 		<Text>100</Text>
 		<TextColor>
 			<R>255</R>
@@ -937,7 +954,7 @@
 			<CX>100</CX>
 			<CY>15</CY>
 		</Size>
-		<Font>2</Font>
+		<Font>4</Font>
 		<Text>Aggro Name</Text>
 		<TextColor>
 			<R>255</R>
@@ -959,7 +976,7 @@
 			<CX>20</CX>
 			<CY>15</CY>
 		</Size>
-		<Font>2</Font>
+		<Font>4</Font>
 		<Text>100</Text>
 		<TextColor>
 			<R>255</R>
@@ -999,6 +1016,7 @@
 		<Pieces>Target_HP_Name</Pieces>
 		<Pieces>Target_HP</Pieces>
 		<Pieces>Target_TargetOfTarget_HP</Pieces>
+		<Pieces>TargetOfTargetName</Pieces>
 		<Pieces>Target_HPLabel</Pieces>
 		<Pieces>Target_HPPercLabel</Pieces>
 		<Pieces>A_TargetBoxStaticAnimTop</Pieces>
