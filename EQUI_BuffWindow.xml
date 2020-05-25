@@ -551,7 +551,7 @@
 		<Text>Katta's Song of Sword Dancing</Text>
 		<Font>4</Font>
 		<TextColor>	<R>197</R><G>183</G><B>255</B>	</TextColor>
-		<Size>	<CX>64</CX><CY>32</CY>	</Size>
+		<Size>	<CX>64</CX><CY>16</CY>	</Size>
 		<AlignCenter>true</AlignCenter>
 	</Label>
 	<Label item="BW_Buff1_Label_Vert">
@@ -1084,7 +1084,7 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Style_Transparent>true</Style_Transparent>
 		<HorizontalFirst>false</HorizontalFirst>
-		<Spacing>4</Spacing>
+		<Spacing>0</Spacing>
 		<SecondarySpacing>10</SecondarySpacing>
 		<AnchorToTop>true</AnchorToTop>
 		<AnchorToLeft>false</AnchorToLeft>
@@ -1324,7 +1324,7 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Style_Transparent>true</Style_Transparent>
 		<HorizontalFirst>false</HorizontalFirst>
-		<Spacing>72</Spacing>
+		<Spacing>64</Spacing>
 		<SecondarySpacing>10</SecondarySpacing>
 		<AnchorToTop>true</AnchorToTop>
 		<AnchorToLeft>false</AnchorToLeft>
