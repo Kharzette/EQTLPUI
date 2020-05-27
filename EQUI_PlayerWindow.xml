@@ -252,14 +252,8 @@
 	<Button item="PW_NewMailIcon">
 		<ScreenID>PW_NewMailIcon</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>2</X>
-			<Y>1</Y>
-		</Location>
-		<Size>
-			<CX>15</CX>
-			<CY>15</CY>
-		</Size>
+		<Location>	<X>4</X><Y>2</Y>	</Location>
+		<Size>	<CX>30</CX><CY>30</CY>	</Size>
 		<Style_Transparent>true</Style_Transparent>
 		<Style_Checkbox>false</Style_Checkbox>
 		<TooltipReference>You have unread mail in your inbox.</TooltipReference>
@@ -270,14 +264,8 @@
 	<Button item="PW_ParcelsIcon">
 		<ScreenID>PW_ParcelsIcon</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>2</X>
-			<Y>1</Y>
-		</Location>
-		<Size>
-			<CX>15</CX>
-			<CY>15</CY>
-		</Size>
+		<Location>	<X>4</X><Y>2</Y>	</Location>
+		<Size>	<CX>30</CX><CY>30</CY>	</Size>
 		<Style_Transparent>true</Style_Transparent>
 		<Style_Checkbox>false</Style_Checkbox>
 		<TooltipReference>You have parcel deliveries.</TooltipReference>
@@ -288,14 +276,8 @@
 	<Button item="PW_ParcelsOverLimitIcon">
 		<ScreenID>PW_ParcelsOverLimitIcon</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>2</X>
-			<Y>1</Y>
-		</Location>
-		<Size>
-			<CX>15</CX>
-			<CY>15</CY>
-		</Size>
+		<Location>	<X>4</X><Y>2</Y>	</Location>
+		<Size>	<CX>30</CX><CY>30</CY>	</Size>
 		<Style_Transparent>true</Style_Transparent>
 		<Style_Checkbox>false</Style_Checkbox>
 		<TooltipReference>You are over your parcel limit! Retrieve the excess ones soon or risk losing them!</TooltipReference>
