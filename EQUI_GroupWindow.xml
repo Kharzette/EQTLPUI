@@ -340,14 +340,8 @@
 		<ScreenID>GW_ManaPercentLabel</ScreenID>
 		<Font>5</Font>
 		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>162</X>
-			<Y>102</Y>
-		</Location>
-		<Size>
-			<CX>100</CX>
-			<CY>28</CY>
-		</Size>
+		<Location>	<X>162</X><Y>102</Y>	</Location>
+		<Size>	<CX>100</CX><CY>28</CY>	</Size>
 		<EQType>20</EQType>
 		<TextColor>
 			<R>255</R>
@@ -360,29 +354,28 @@
 		<Text>99.999</Text>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
-	<Label item="GW_STAPercentage">
-		<ScreenID>GW_StamPercentage</ScreenID>
-		<EQType>21</EQType>
-		<Font>1</Font>
+	<Label item="GW_StamPercent">
+		<ScreenID>GW_StamPercentLabel</ScreenID>
+		<Font>5</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>148</X>
-			<Y>-51</Y>
+			<X>162</X>
+			<Y>102</Y>
 		</Location>
 		<Size>
-			<CX>20</CX>
-			<CY>14</CY>
+			<CX>100</CX>
+			<CY>28</CY>
 		</Size>
-		<Text>100</Text>
+		<EQType>21</EQType>
 		<TextColor>
 			<R>255</R>
 			<G>255</G>
 			<B>255</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
-		<AlignCenter>false</AlignCenter>
+		<AlignCenter>true</AlignCenter>
 		<AlignRight>true</AlignRight>
-		<AlignLeft>false</AlignLeft>
+		<Text>99.999</Text>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Label item="GW_ExpPercentage">
@@ -515,14 +508,8 @@
 	<Gauge item="GW_ManaGauge0">
 		<ScreenID>GW_PlayerMana</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>102</X>
-			<Y>104</Y>
-		</Location>
-		<Size>
-			<CX>216</CX>
-			<CY>16</CY>
-		</Size>
+		<Location>	<X>102</X><Y>104</Y>	</Location>
+		<Size>	<CX>216</CX><CY>16</CY>	</Size>
 		<GaugeOffsetY>0</GaugeOffsetY>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
@@ -584,14 +571,8 @@
 	<Gauge item="GW_STAGauge0">
 		<ScreenID>GW_PlayerEndurance</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>41</X>
-			<Y>-49</Y>
-		</Location>
-		<Size>
-			<CX>108</CX>
-			<CY>8</CY>
-		</Size>
+		<Location>	<X>102</X><Y>104</Y>	</Location>
+		<Size>	<CX>216</CX><CY>16</CY>	</Size>
 		<GaugeOffsetY>0</GaugeOffsetY>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
