@@ -3108,7 +3108,7 @@
 		<Pieces>GW_STAGauge3</Pieces>
 		<Pieces>GW_STAGauge4</Pieces>
 		<Pieces>GW_STAGauge5</Pieces>
-		<Pieces>GW_STAPercentage</Pieces>
+<!--		<Pieces>GW_STAPercentage</Pieces>	-->
 		<Pieces>GW_PetGauge0</Pieces>
 		<Pieces>GW_PetGauge1</Pieces>
 		<Pieces>GW_PetGauge2</Pieces>
