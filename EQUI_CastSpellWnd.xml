@@ -578,42 +578,42 @@
 		<Location>	<X>59</X><Y>291</Y>	</Location>
 	</Label>
 	<Label item="CSPW_SpellName8">
-		<EQType>68</EQType>
+		<EQType>133</EQType>
 		<Font>4</Font>
 		<TextColor>	<R>172</R><G>156</G><B>255</B>	</TextColor>
 		<Size>	<CX>200</CX><CY>35</CY>	</Size>
 		<Location>	<X>59</X><Y>331</Y>	</Location>
 	</Label>
 	<Label item="CSPW_SpellName9">
-		<EQType>69</EQType>
+		<EQType>138</EQType>
 		<Font>4</Font>
 		<TextColor>	<R>172</R><G>156</G><B>255</B>	</TextColor>
 		<Size>	<CX>200</CX><CY>35</CY>	</Size>
 		<Location>	<X>59</X><Y>371</Y>	</Location>
 	</Label>
 	<Label item="CSPW_SpellName10">
-		<EQType>70</EQType>
+		<EQType>149</EQType>
 		<Font>4</Font>
 		<TextColor>	<R>172</R><G>156</G><B>255</B>	</TextColor>
 		<Size>	<CX>200</CX><CY>35</CY>	</Size>
 		<Location>	<X>59</X><Y>411</Y>	</Location>
 	</Label>
 	<Label item="CSPW_SpellName11">
-		<EQType>71</EQType>
+		<EQType>150</EQType>
 		<Font>4</Font>
 		<TextColor>	<R>172</R><G>156</G><B>255</B>	</TextColor>
 		<Size>	<CX>200</CX><CY>35</CY>	</Size>
 		<Location>	<X>59</X><Y>451</Y>	</Location>
 	</Label>
 	<Label item="CSPW_SpellName12">
-		<EQType>72</EQType>
+		<EQType>414</EQType>
 		<Font>4</Font>
 		<TextColor>	<R>172</R><G>156</G><B>255</B>	</TextColor>
 		<Size>	<CX>200</CX><CY>35</CY>	</Size>
 		<Location>	<X>59</X><Y>491</Y>	</Location>
 	</Label>
 	<Label item="CSPW_SpellName13">
-		<EQType>73</EQType>
+		<EQType>415</EQType>
 		<Font>4</Font>
 		<TextColor>	<R>172</R><G>156</G><B>255</B>	</TextColor>
 		<Size>	<CX>200</CX><CY>35</CY>	</Size>
