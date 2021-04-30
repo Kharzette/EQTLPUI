@@ -3043,11 +3043,11 @@
 			<CX>378</CX>
 			<CY>512</CY>
 		</Size>
-		<Text>Group Window</Text>
+		<Text>Group</Text>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>true</Style_Transparent>
-		<TooltipReference>Group Window</TooltipReference>
+		<TooltipReference>This is the party window.</TooltipReference>
 		<DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
 		<Style_Titlebar>false</Style_Titlebar>
 		<Style_Closebox>false</Style_Closebox>
@@ -3055,41 +3055,31 @@
 		<Style_Border>false</Style_Border>
 		<Style_Sizable>false</Style_Sizable>
 		<Escapable>false</Escapable>
-		<Pieces>DrakGroupwindow_Back1</Pieces>
-		<Pieces>GW_Gauge1back</Pieces>
-		<Pieces>GW_Gauge2back</Pieces>
-		<Pieces>GW_Gauge3back</Pieces>
-		<Pieces>GW_Gauge4back</Pieces>
-		<Pieces>GW_Gauge5back</Pieces>
-		<Pieces>GW_Player_HP</Pieces>
-		<Pieces>GW_FirstName</Pieces>
-		<Pieces>GW_Player_HP_ActiveArea</Pieces>
-		<Pieces>GW_HPPercent</Pieces>
-		<Pieces>GW_Breath_Gauge</Pieces>
-		<Pieces>GW_ExpGauge</Pieces>
-		<Pieces>GW_ExpPercentage</Pieces>
-		<Pieces>GW_AltAdvGauge</Pieces>
-		<Pieces>GW_AAXPPercentage</Pieces>
-		<Pieces>GW_InviteButton</Pieces>
-		<Pieces>GW_DisbandButton</Pieces>
-		<Pieces>GW_FollowButton</Pieces>
-		<Pieces>GW_DeclineButton</Pieces>
-		<Pieces>GW_LFGButton</Pieces>
+		<Pieces>GW_AggroPctPlayer1</Pieces>
+		<Pieces>GW_AggroPctPlayer2</Pieces>
+		<Pieces>GW_AggroPctPlayer3</Pieces>
+		<Pieces>GW_AggroPctPlayer4</Pieces>
+		<Pieces>GW_AggroPctPlayer5</Pieces>
 		<Pieces>GW_Gauge1</Pieces>
 		<Pieces>GW_Gauge2</Pieces>
 		<Pieces>GW_Gauge3</Pieces>
 		<Pieces>GW_Gauge4</Pieces>
 		<Pieces>GW_Gauge5</Pieces>
-		<Pieces>GW_Label1_Name</Pieces>
-		<Pieces>GW_Gauge1_Name</Pieces>
-		<Pieces>GW_Label2_Name</Pieces>
-		<Pieces>GW_Gauge2_Name</Pieces>
-		<Pieces>GW_Label3_Name</Pieces>
-		<Pieces>GW_Gauge3_Name</Pieces>
-		<Pieces>GW_Label4_Name</Pieces>
-		<Pieces>GW_Gauge4_Name</Pieces>
-		<Pieces>GW_Label5_Name</Pieces>
-		<Pieces>GW_Gauge5_Name</Pieces>
+		<Pieces>GW_PetGauge1</Pieces>
+		<Pieces>GW_PetGauge2</Pieces>
+		<Pieces>GW_PetGauge3</Pieces>
+		<Pieces>GW_PetGauge4</Pieces>
+		<Pieces>GW_PetGauge5</Pieces>
+		<Pieces>GW_ManaGauge1</Pieces>
+		<Pieces>GW_ManaGauge2</Pieces>
+		<Pieces>GW_ManaGauge3</Pieces>
+		<Pieces>GW_ManaGauge4</Pieces>
+		<Pieces>GW_ManaGauge5</Pieces>
+		<Pieces>GW_STAGauge1</Pieces>
+		<Pieces>GW_STAGauge2</Pieces>
+		<Pieces>GW_STAGauge3</Pieces>
+		<Pieces>GW_STAGauge4</Pieces>
+		<Pieces>GW_STAGauge5</Pieces>
 		<Pieces>GW_HPLabel1</Pieces>
 		<Pieces>GW_HPPercLabel1</Pieces>
 		<Pieces>GW_HPLabel2</Pieces>
@@ -3100,39 +3090,7 @@
 		<Pieces>GW_HPPercLabel4</Pieces>
 		<Pieces>GW_HPLabel5</Pieces>
 		<Pieces>GW_HPPercLabel5</Pieces>
-		<Pieces>Group_CombatTimer</Pieces>
-		<Pieces>Group_CombatTimerLabel</Pieces>
-		<Pieces>GW_STAGauge0</Pieces>
-		<Pieces>GW_STAGauge1</Pieces>
-		<Pieces>GW_STAGauge2</Pieces>
-		<Pieces>GW_STAGauge3</Pieces>
-		<Pieces>GW_STAGauge4</Pieces>
-		<Pieces>GW_STAGauge5</Pieces>
-<!--		<Pieces>GW_STAPercentage</Pieces>	-->
-		<Pieces>GW_PetGauge0</Pieces>
-		<Pieces>GW_PetGauge1</Pieces>
-		<Pieces>GW_PetGauge2</Pieces>
-		<Pieces>GW_PetGauge3</Pieces>
-		<Pieces>GW_PetGauge4</Pieces>
-		<Pieces>GW_PetGauge5</Pieces>
-		<Pieces>GW_ManaGauge0</Pieces>
-		<Pieces>GW_ManaGauge1</Pieces>
-		<Pieces>GW_ManaGauge2</Pieces>
-		<Pieces>GW_ManaGauge3</Pieces>
-		<Pieces>GW_ManaGauge4</Pieces>
-		<Pieces>GW_ManaGauge5</Pieces>
-		<Pieces>GW_ManaPercent</Pieces>
-		<Pieces>GW_CastingTime</Pieces>
-		<Pieces>GW_Voice0</Pieces>
-		<Pieces>GW_Voice1</Pieces>
-		<Pieces>GW_Voice2</Pieces>
-		<Pieces>GW_Voice3</Pieces>
-		<Pieces>GW_Voice4</Pieces>
-		<Pieces>GW_Voice5</Pieces>
-		<Pieces>GW_GroupRoleTank0</Pieces>
-		<Pieces>GW_GroupRoleAssist0</Pieces>
-		<Pieces>GW_GroupRolePuller0</Pieces>
-		<Pieces>GW_GroupRoleMarkNPC0</Pieces>
+		<Pieces>GW_LFGButton</Pieces>
 		<Pieces>GW_GroupRoleTank1</Pieces>
 		<Pieces>GW_GroupRoleAssist1</Pieces>
 		<Pieces>GW_GroupRolePuller1</Pieces>
@@ -3153,11 +3111,57 @@
 		<Pieces>GW_GroupRoleAssist5</Pieces>
 		<Pieces>GW_GroupRolePuller5</Pieces>
 		<Pieces>GW_GroupRoleMarkNPC5</Pieces>
+		<Pieces>GW_InviteButton</Pieces>
+		<Pieces>GW_DisbandButton</Pieces>
+		<Pieces>GW_FollowButton</Pieces>
+		<Pieces>GW_DeclineButton</Pieces>
+		<Pieces>DrakGroupwindow_Back1</Pieces>
+		<Pieces>GW_Gauge1back</Pieces>
+		<Pieces>GW_Gauge2back</Pieces>
+		<Pieces>GW_Gauge3back</Pieces>
+		<Pieces>GW_Gauge4back</Pieces>
+		<Pieces>GW_Gauge5back</Pieces>
+		<Pieces>GW_Player_HP</Pieces>
+		<Pieces>GW_FirstName</Pieces>
+		<Pieces>GW_Player_HP_ActiveArea</Pieces>
+		<Pieces>GW_HPPercent</Pieces>
+		<Pieces>GW_Breath_Gauge</Pieces>
+		<Pieces>GW_ExpGauge</Pieces>
+		<Pieces>GW_ExpPercentage</Pieces>
+		<Pieces>GW_AltAdvGauge</Pieces>
+		<Pieces>GW_AAXPPercentage</Pieces>
+		<Pieces>GW_Label1_Name</Pieces>
+		<Pieces>GW_Gauge1_Name</Pieces>
+		<Pieces>GW_Label2_Name</Pieces>
+		<Pieces>GW_Gauge2_Name</Pieces>
+		<Pieces>GW_Label3_Name</Pieces>
+		<Pieces>GW_Gauge3_Name</Pieces>
+		<Pieces>GW_Label4_Name</Pieces>
+		<Pieces>GW_Gauge4_Name</Pieces>
+		<Pieces>GW_Label5_Name</Pieces>
+		<Pieces>GW_Gauge5_Name</Pieces>
+		<Pieces>Group_CombatTimer</Pieces>
+		<Pieces>Group_CombatTimerLabel</Pieces>
+<!--		<Pieces>GW_STAPercentage</Pieces>	-->
+		<Pieces>GW_STAGauge0</Pieces>
+		<Pieces>GW_PetGauge0</Pieces>
+		<Pieces>GW_ManaGauge0</Pieces>
+		<Pieces>GW_GroupRoleTank0</Pieces>
+		<Pieces>GW_GroupRoleAssist0</Pieces>
+		<Pieces>GW_GroupRolePuller0</Pieces>
+		<Pieces>GW_GroupRoleMarkNPC0</Pieces>
 		<Pieces>GW_AggroPctPlayer0</Pieces>
-		<Pieces>GW_AggroPctPlayer1</Pieces>
-		<Pieces>GW_AggroPctPlayer2</Pieces>
-		<Pieces>GW_AggroPctPlayer3</Pieces>
-		<Pieces>GW_AggroPctPlayer4</Pieces>
-		<Pieces>GW_AggroPctPlayer5</Pieces>
+		<Pieces>GW_ManaPercent</Pieces>
+		<Pieces>GW_CastingTime</Pieces>
+
+<!--	I think these moved, I never use voice anyway
+			That ain't classic!
+		<Pieces>GW_Voice0</Pieces>
+		<Pieces>GW_Voice1</Pieces>
+		<Pieces>GW_Voice2</Pieces>
+		<Pieces>GW_Voice3</Pieces>
+		<Pieces>GW_Voice4</Pieces>
+		<Pieces>GW_Voice5</Pieces>
+-->
 	</Screen>
 </XML>
