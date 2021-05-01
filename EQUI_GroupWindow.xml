@@ -3055,11 +3055,6 @@
 		<Style_Border>false</Style_Border>
 		<Style_Sizable>false</Style_Sizable>
 		<Escapable>false</Escapable>
-		<Pieces>GW_AggroPctPlayer1</Pieces>
-		<Pieces>GW_AggroPctPlayer2</Pieces>
-		<Pieces>GW_AggroPctPlayer3</Pieces>
-		<Pieces>GW_AggroPctPlayer4</Pieces>
-		<Pieces>GW_AggroPctPlayer5</Pieces>
 		<Pieces>GW_Gauge1</Pieces>
 		<Pieces>GW_Gauge2</Pieces>
 		<Pieces>GW_Gauge3</Pieces>
@@ -3115,7 +3110,7 @@
 		<Pieces>GW_DisbandButton</Pieces>
 		<Pieces>GW_FollowButton</Pieces>
 		<Pieces>GW_DeclineButton</Pieces>
-		<Pieces>DrakGroupwindow_Back1</Pieces>
+		<Pieces>DrakGroupwindow_Back1</Pieces>		
 		<Pieces>GW_Gauge1back</Pieces>
 		<Pieces>GW_Gauge2back</Pieces>
 		<Pieces>GW_Gauge3back</Pieces>
@@ -3153,6 +3148,11 @@
 		<Pieces>GW_AggroPctPlayer0</Pieces>
 		<Pieces>GW_ManaPercent</Pieces>
 		<Pieces>GW_CastingTime</Pieces>
+		<Pieces>GW_AggroPctPlayer1</Pieces>
+		<Pieces>GW_AggroPctPlayer2</Pieces>
+		<Pieces>GW_AggroPctPlayer3</Pieces>
+		<Pieces>GW_AggroPctPlayer4</Pieces>
+		<Pieces>GW_AggroPctPlayer5</Pieces>
 
 <!--	I think these moved, I never use voice anyway
 			That ain't classic!
