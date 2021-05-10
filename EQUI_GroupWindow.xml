@@ -150,90 +150,45 @@
 	<Ui2DAnimation item="Drak_F2EndCapLeft">
 		<Frames>
 			<Texture>drakah_nametags.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>0</Y>
-			</Location>
-			<Size>
-				<CX>42</CX>
-				<CY>36</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
+			<Location>	<X>0</X><Y>0</Y>	</Location>
+			<Size>	<CX>42</CX><CY>36</CY>	</Size>
+			<Hotspot>	<X>0</X><Y>0</Y>	</Hotspot>
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
 	<Ui2DAnimation item="Drak_F3EndCapLeft">
 		<Frames>
 			<Texture>drakah_nametags.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>38</Y>
-			</Location>
-			<Size>
-				<CX>42</CX>
-				<CY>36</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
+			<Location>	<X>0</X><Y>38</Y>	</Location>
+			<Size>	<CX>42</CX><CY>36</CY>	</Size>
+			<Hotspot>	<X>0</X><Y>0</Y>	</Hotspot>
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
 	<Ui2DAnimation item="Drak_F4EndCapLeft">
 		<Frames>
 			<Texture>drakah_nametags.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>74</Y>
-			</Location>
-			<Size>
-				<CX>42</CX>
-				<CY>36</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
+			<Location>	<X>0</X><Y>74</Y>	</Location>
+			<Size>	<CX>42</CX><CY>36</CY>	</Size>
+			<Hotspot>	<X>0</X><Y>0</Y>	</Hotspot>
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
 	<Ui2DAnimation item="Drak_F5EndCapLeft">
 		<Frames>
 			<Texture>drakah_nametags.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>112</Y>
-			</Location>
-			<Size>
-				<CX>42</CX>
-				<CY>36</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
+			<Location>	<X>0</X><Y>112</Y>	</Location>
+			<Size>	<CX>42</CX><CY>36</CY>	</Size>
+			<Hotspot>	<X>0</X><Y>0</Y>	</Hotspot>
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
 	<Ui2DAnimation item="Drak_F6EndCapLeft">
 		<Frames>
 			<Texture>drakah_nametags.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>150</Y>
-			</Location>
-			<Size>
-				<CX>42</CX>
-				<CY>36</CY>
-			</Size>
-			<Hotspot>
-				<X>0</X>
-				<Y>0</Y>
-			</Hotspot>
+			<Location>	<X>0</X><Y>150</Y>	</Location>
+			<Size>	<CX>42</CX><CY>36</CY>	</Size>
+			<Hotspot>	<X>0</X><Y>0</Y>	</Hotspot>
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
@@ -2156,40 +2111,22 @@
 		<ScreenID>PLGauge1back</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>30</X>
-			<Y>228</Y>
-		</Location>
-		<Size>
-			<CX>42</CX>
-			<CY>36</CY>
-		</Size>
+		<Location>	<X>42</X><Y>238</Y>	</Location>
+		<Size>	<CX>42</CX><CY>36</CY>	</Size>
 		<TextOffsetY>-30</TextOffsetY>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
 		<!--<TooltipReference/>-->
-		<FillTint>
-			<R>255</R>
-			<G>0</G>
-			<B>0</B>
-		</FillTint>
-		<LinesFillTint>
-			<R>0</R>
-			<G>0</G>
-			<B>0</B>
-		</LinesFillTint>
+		<FillTint>	<R>255</R><G>0</G><B>0</B>	</FillTint>
+		<LinesFillTint>	<R>0</R><G>0</G><B>0</B>	</LinesFillTint>
 		<DrawLinesFill>false</DrawLinesFill>
 		<EQType>11</EQType>
 		<GaugeDrawTemplate>
 			<Lines>Drak_F2EndCapLeft</Lines>
 		</GaugeDrawTemplate>
 		<TextOffsetX>0</TextOffsetX>
-		<TextColor>
-			<B>240</B>
-			<G>240</G>
-			<R>240</R>
-		</TextColor>
+		<TextColor>	<B>240</B><G>240</G><R>240</R>	</TextColor>
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 		<GaugeOffsetY>0</GaugeOffsetY>
 	</Gauge>
@@ -2197,40 +2134,22 @@
 		<ScreenID>PLGauge2back</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>30</X>
-			<Y>278</Y>
-		</Location>
-		<Size>
-			<CX>42</CX>
-			<CY>36</CY>
-		</Size>
+		<Location>	<X>42</X><Y>288</Y>	</Location>
+		<Size>	<CX>42</CX><CY>36</CY>	</Size>
 		<TextOffsetY>-30</TextOffsetY>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
 		<!--<TooltipReference/>-->
-		<FillTint>
-			<R>255</R>
-			<G>0</G>
-			<B>0</B>
-		</FillTint>
-		<LinesFillTint>
-			<R>0</R>
-			<G>0</G>
-			<B>0</B>
-		</LinesFillTint>
+		<FillTint>	<R>255</R><G>0</G><B>0</B>	</FillTint>
+		<LinesFillTint>	<R>0</R><G>0</G><B>0</B>	</LinesFillTint>
 		<DrawLinesFill>false</DrawLinesFill>
 		<EQType>12</EQType>
 		<GaugeDrawTemplate>
 			<Lines>Drak_F3EndCapLeft</Lines>
 		</GaugeDrawTemplate>
 		<TextOffsetX>0</TextOffsetX>
-		<TextColor>
-			<B>240</B>
-			<G>240</G>
-			<R>240</R>
-		</TextColor>
+		<TextColor>	<B>240</B><G>240</G><R>240</R>	</TextColor>
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 		<GaugeOffsetY>0</GaugeOffsetY>
 	</Gauge>
@@ -2238,40 +2157,22 @@
 		<ScreenID>PLGauge3back</ScreenID>
 		<Font>2</Font>
 		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>30</X>
-			<Y>328</Y>
-		</Location>
-		<Size>
-			<CX>42</CX>
-			<CY>36</CY>
-		</Size>
+		<Location>	<X>42</X><Y>338</Y>	</Location>
+		<Size>	<CX>42</CX><CY>36</CY>	</Size>
 		<TextOffsetY>-30</TextOffsetY>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
 		<!--<TooltipReference/>-->
-		<FillTint>
-			<R>255</R>
-			<G>0</G>
-			<B>0</B>
-		</FillTint>
-		<LinesFillTint>
-			<R>0</R>
-			<G>0</G>
-			<B>0</B>
-		</LinesFillTint>
+		<FillTint>	<R>255</R><G>0</G><B>0</B>	</FillTint>
+		<LinesFillTint>	<R>0</R><G>0</G><B>0</B>	</LinesFillTint>
 		<DrawLinesFill>false</DrawLinesFill>
 		<EQType>13</EQType>
 		<GaugeDrawTemplate>
 			<Lines>Drak_F4EndCapLeft</Lines>
 		</GaugeDrawTemplate>
 		<TextOffsetX>0</TextOffsetX>
-		<TextColor>
-			<B>240</B>
-			<G>240</G>
-			<R>240</R>
-		</TextColor>
+		<TextColor>	<B>240</B><G>240</G><R>240</R>	</TextColor>
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 		<GaugeOffsetY>0</GaugeOffsetY>
 	</Gauge>
@@ -2279,40 +2180,22 @@
 		<ScreenID>PLGauge4back</ScreenID>
 		<Font>2</Font>
 		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>30</X>
-			<Y>378</Y>
-		</Location>
-		<Size>
-			<CX>42</CX>
-			<CY>36</CY>
-		</Size>
+		<Location>	<X>42</X><Y>388</Y>	</Location>
+		<Size>	<CX>42</CX><CY>36</CY>	</Size>
 		<TextOffsetY>-30</TextOffsetY>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
 		<!--<TooltipReference/>-->
-		<FillTint>
-			<R>255</R>
-			<G>0</G>
-			<B>0</B>
-		</FillTint>
-		<LinesFillTint>
-			<R>0</R>
-			<G>0</G>
-			<B>0</B>
-		</LinesFillTint>
+		<FillTint>	<R>255</R><G>0</G><B>0</B>	</FillTint>
+		<LinesFillTint>	<R>0</R><G>0</G><B>0</B>	</LinesFillTint>
 		<DrawLinesFill>false</DrawLinesFill>
 		<EQType>14</EQType>
 		<GaugeDrawTemplate>
 			<Lines>Drak_F5EndCapLeft</Lines>
 		</GaugeDrawTemplate>
 		<TextOffsetX>0</TextOffsetX>
-		<TextColor>
-			<B>240</B>
-			<G>240</G>
-			<R>240</R>
-		</TextColor>
+		<TextColor>	<B>240</B><G>240</G><R>240</R>	</TextColor>
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 		<GaugeOffsetY>0</GaugeOffsetY>
 	</Gauge>
@@ -2320,40 +2203,22 @@
 		<ScreenID>PLGauge5back</ScreenID>
 		<Font>2</Font>
 		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>30</X>
-			<Y>428</Y>
-		</Location>
-		<Size>
-			<CX>42</CX>
-			<CY>36</CY>
-		</Size>
+		<Location>	<X>42</X><Y>438</Y>	</Location>
+		<Size>	<CX>42</CX><CY>36</CY>	</Size>
 		<TextOffsetY>-30</TextOffsetY>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
 		<!--<TooltipReference/>-->
-		<FillTint>
-			<R>255</R>
-			<G>0</G>
-			<B>0</B>
-		</FillTint>
-		<LinesFillTint>
-			<R>0</R>
-			<G>0</G>
-			<B>0</B>
-		</LinesFillTint>
+		<FillTint>	<R>255</R><G>0</G><B>0</B>	</FillTint>
+		<LinesFillTint>	<R>0</R><G>0</G><B>0</B>	</LinesFillTint>
 		<DrawLinesFill>false</DrawLinesFill>
 		<EQType>15</EQType>
 		<GaugeDrawTemplate>
 			<Lines>Drak_F6EndCapLeft</Lines>
 		</GaugeDrawTemplate>
 		<TextOffsetX>0</TextOffsetX>
-		<TextColor>
-			<B>240</B>
-			<G>240</G>
-			<R>240</R>
-		</TextColor>
+		<TextColor>	<B>240</B><G>240</G><R>240</R>	</TextColor>
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 		<GaugeOffsetY>0</GaugeOffsetY>
 	</Gauge>
@@ -2922,20 +2787,10 @@
 		<RelativePosition>true</RelativePosition>
 		<Font>4</Font>
 		<Text>100</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
+		<TextColor>	<R>255</R><G>255</G><B>255</B>	</TextColor>
 		<EQType>309</EQType>
-		<Location>
-			<X>38</X>
-			<Y>254</Y>
-		</Location>
-		<Size>
-			<CX>36</CX>
-			<CY>24</CY>
-		</Size>
+		<Location>	<X>30</X><Y>250</Y>	</Location>
+		<Size>	<CX>18</CX><CY>12</CY>	</Size>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<Style_Tooltip>false</Style_Tooltip>
@@ -2945,20 +2800,10 @@
 		<RelativePosition>true</RelativePosition>
 		<Font>4</Font>
 		<Text>100</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
+		<TextColor>	<R>255</R><G>255</G><B>255</B>	</TextColor>
 		<EQType>310</EQType>
-		<Location>
-			<X>38</X>
-			<Y>304</Y>
-		</Location>
-		<Size>
-			<CX>18</CX>
-			<CY>12</CY>
-		</Size>
+		<Location>	<X>30</X><Y>300</Y>	</Location>
+		<Size>	<CX>18</CX><CY>12</CY>	</Size>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<Style_Tooltip>false</Style_Tooltip>
@@ -2968,20 +2813,10 @@
 		<RelativePosition>true</RelativePosition>
 		<Font>4</Font>
 		<Text>100</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
+		<TextColor>	<R>255</R><G>255</G><B>255</B>	</TextColor>
 		<EQType>311</EQType>
-		<Location>
-			<X>38</X>
-			<Y>354</Y>
-		</Location>
-		<Size>
-			<CX>18</CX>
-			<CY>12</CY>
-		</Size>
+		<Location>	<X>30</X><Y>350</Y>	</Location>
+		<Size>	<CX>18</CX><CY>12</CY>	</Size>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<Style_Tooltip>false</Style_Tooltip>
@@ -2991,20 +2826,10 @@
 		<RelativePosition>true</RelativePosition>
 		<Font>4</Font>
 		<Text>100</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
+		<TextColor>	<R>255</R><G>255</G><B>255</B>	</TextColor>
 		<EQType>312</EQType>
-		<Location>
-			<X>38</X>
-			<Y>404</Y>
-		</Location>
-		<Size>
-			<CX>18</CX>
-			<CY>12</CY>
-		</Size>
+		<Location>	<X>30</X><Y>400</Y>	</Location>
+		<Size>	<CX>18</CX><CY>12</CY>	</Size>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<Style_Tooltip>false</Style_Tooltip>
@@ -3014,20 +2839,10 @@
 		<RelativePosition>true</RelativePosition>
 		<Font>4</Font>
 		<Text>100</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
+		<TextColor>	<R>255</R><G>255</G><B>255</B>	</TextColor>
 		<EQType>313</EQType>
-		<Location>
-			<X>38</X>
-			<Y>454</Y>
-		</Location>
-		<Size>
-			<CX>18</CX>
-			<CY>12</CY>
-		</Size>
+		<Location>	<X>30</X><Y>450</Y>	</Location>
+		<Size>	<CX>18</CX><CY>12</CY>	</Size>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<Style_Tooltip>false</Style_Tooltip>
@@ -3116,6 +2931,11 @@
 		<Pieces>GW_Gauge3back</Pieces>
 		<Pieces>GW_Gauge4back</Pieces>
 		<Pieces>GW_Gauge5back</Pieces>
+		<Pieces>GW_AggroPctPlayer1</Pieces>
+		<Pieces>GW_AggroPctPlayer2</Pieces>
+		<Pieces>GW_AggroPctPlayer3</Pieces>
+		<Pieces>GW_AggroPctPlayer4</Pieces>
+		<Pieces>GW_AggroPctPlayer5</Pieces>
 		<Pieces>GW_Player_HP</Pieces>
 		<Pieces>GW_FirstName</Pieces>
 		<Pieces>GW_Player_HP_ActiveArea</Pieces>
@@ -3148,11 +2968,6 @@
 		<Pieces>GW_AggroPctPlayer0</Pieces>
 		<Pieces>GW_ManaPercent</Pieces>
 		<Pieces>GW_CastingTime</Pieces>
-		<Pieces>GW_AggroPctPlayer1</Pieces>
-		<Pieces>GW_AggroPctPlayer2</Pieces>
-		<Pieces>GW_AggroPctPlayer3</Pieces>
-		<Pieces>GW_AggroPctPlayer4</Pieces>
-		<Pieces>GW_AggroPctPlayer5</Pieces>
 
 <!--	I think these moved, I never use voice anyway
 			That ain't classic!
