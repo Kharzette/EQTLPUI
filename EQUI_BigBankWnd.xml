@@ -566,6 +566,23 @@
 		<ItemOffsetX>2</ItemOffsetX>
 		<ItemOffsetY>2</ItemOffsetY>
 	</InvSlot>
+	<Button item="BIGB_DragonHoard">
+		<ScreenID>DragonHoard</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>5</X>
+			<Y>345</Y>
+		</Location>
+		<Size>
+			<CX>60</CX>
+			<CY>20</CY>
+		</Size>
+		<Style_Transparent>false</Style_Transparent>
+		<TooltipReference>Click on this button to open your Dragon's Hoard.</TooltipReference>
+		<Style_Checkbox>false</Style_Checkbox>
+		<Text>Hoard</Text>
+		<Template>BDT_Normal</Template>
+	</Button>
 	<Button item="BIGB_SharedMoney0">
 		<ScreenID>BIGB_SharedMoney0</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -603,17 +620,17 @@
 		<ScreenID>AltStorageButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>33</X>
+			<X>83</X>
 			<Y>345</Y>
 		</Location>
 		<Size>
-			<CX>85</CX>
+			<CX>55</CX>
 			<CY>20</CY>
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference>Click on this button to open the Alt Storage access window.</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text>Shroud Bank</Text>
+		<Text>Shroud</Text>
 		<TextColor>
 			<R>255</R>
 			<G>255</G>
@@ -918,6 +935,7 @@
 		<Pieces>BIGB_ChangeButton</Pieces>
 		<Pieces>BIGB_SharedBankLabel</Pieces>
 		<Pieces>BIGB_AltStorageButton</Pieces>
+		<Pieces>BIGB_DragonHoard</Pieces>
 		<Pieces>BIGB_FindItemButton</Pieces>
 	</Screen>
 </XML>

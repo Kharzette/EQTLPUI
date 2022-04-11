@@ -10,325 +10,21 @@
 		Just comment or uncomment the appropriate sections (should be
 	-->
 	<TextureInfo item="drakah_buffframe.tga">
-		<Size>
-			<CX>16</CX>
-			<CY>128</CY>
-		</Size>
+		<Size>	<CX>16</CX><CY>128</CY>	</Size>
 	</TextureInfo>
-	<Button item="BW_Buff0_Button">
-		<ScreenID>Buff0</ScreenID>
+	<Button item="BW_Player_Buff_Template">
+		<ScreenID>Player_Buff_Template</ScreenID>
 		<RelativePosition>true</RelativePosition>
-
 		<!-- Horizontal
-		<Size>
-			<CX>192</CX>
-			<CY>64</CY>
-		</Size>
+		<Size>	<CX>192</CX><CY>64</CY>	</Size>
 		-->
 
 		<!-- Vertical -->
-		<Size>
-			<CX>64</CX>
-			<CY>64</CY>
-		</Size>
-
-		<Template>BDT_BlueBuff</Template>
-		<DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
-		</DecalOffset>
-		<DecalSize>
-			<CX>60</CX>
-			<CY>60</CY>
-		</DecalSize>
-	</Button>
-	<Button item="BW_Buff1_Button">
-		<ScreenID>Buff1</ScreenID>
+		<Size>	<CX>64</CX><CY>64</CY>	</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>	<X>2</X><Y>2</Y>	</DecalOffset>
 		<DecalSize>	<CX>60</CX><CY>60</CY>	</DecalSize>
 	</Button>
-	<Button item="BW_Buff2_Button">
-		<ScreenID>Buff2</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Template>BDT_BlueBuff</Template>
-		<DecalOffset>	<X>2</X><Y>2</Y>	</DecalOffset>
-		<DecalSize>	<CX>60</CX><CY>60</CY>	</DecalSize>
-	</Button>
-	<Button item="BW_Buff3_Button">
-		<ScreenID>Buff3</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Template>BDT_BlueBuff</Template>
-		<DecalOffset>	<X>2</X><Y>2</Y>	</DecalOffset>
-		<DecalSize>	<CX>60</CX><CY>60</CY>	</DecalSize>
-	</Button>
-	<Button item="BW_Buff4_Button">
-		<ScreenID>Buff4</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Template>BDT_BlueBuff</Template>
-		<DecalOffset>	<X>2</X><Y>2</Y>	</DecalOffset>
-		<DecalSize>	<CX>60</CX><CY>60</CY>	</DecalSize>
-	</Button>
-	<Button item="BW_Buff5_Button">
-		<ScreenID>Buff5</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Template>BDT_BlueBuff</Template>
-		<DecalOffset>	<X>2</X><Y>2</Y>	</DecalOffset>
-		<DecalSize>	<CX>60</CX><CY>60</CY>	</DecalSize>
-	</Button>
-	<Button item="BW_Buff6_Button">
-		<ScreenID>Buff6</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Template>BDT_BlueBuff</Template>
-		<DecalOffset>	<X>2</X><Y>2</Y>	</DecalOffset>
-		<DecalSize>	<CX>60</CX><CY>60</CY>	</DecalSize>
-	</Button>
-	<Button item="BW_Buff7_Button">
-		<ScreenID>Buff7</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Template>BDT_BlueBuff</Template>
-		<DecalOffset>	<X>2</X><Y>2</Y>	</DecalOffset>
-		<DecalSize>	<CX>60</CX><CY>60</CY>	</DecalSize>
-	</Button>
-	<Button item="BW_Buff8_Button">
-		<ScreenID>Buff8</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Template>BDT_BlueBuff</Template>
-		<DecalOffset>	<X>2</X><Y>2</Y>	</DecalOffset>
-		<DecalSize>	<CX>60</CX><CY>60</CY>	</DecalSize>
-	</Button>
-	<Button item="BW_Buff9_Button">
-		<ScreenID>Buff9</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Template>BDT_BlueBuff</Template>
-		<DecalOffset>	<X>2</X><Y>2</Y>	</DecalOffset>
-		<DecalSize>	<CX>60</CX><CY>60</CY>	</DecalSize>
-	</Button>
-	<Button item="BW_Buff10_Button">
-		<ScreenID>Buff10</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Template>BDT_BlueBuff</Template>
-		<DecalOffset>	<X>2</X><Y>2</Y>	</DecalOffset>
-		<DecalSize>	<CX>60</CX><CY>60</CY>	</DecalSize>
-	</Button>
-	<Button item="BW_Buff11_Button">
-		<ScreenID>Buff11</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Template>BDT_BlueBuff</Template>
-		<DecalOffset>	<X>2</X><Y>2</Y>	</DecalOffset>
-		<DecalSize>	<CX>60</CX><CY>60</CY>	</DecalSize>
-	</Button>
-	<Button item="BW_Buff12_Button">
-		<ScreenID>Buff12</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Template>BDT_BlueBuff</Template>
-		<DecalOffset>	<X>2</X><Y>2</Y>	</DecalOffset>
-		<DecalSize>	<CX>60</CX><CY>60</CY>	</DecalSize>
-	</Button>
-	<Button item="BW_Buff13_Button">
-		<ScreenID>Buff13</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Template>BDT_BlueBuff</Template>
-		<DecalOffset>	<X>2</X><Y>2</Y>	</DecalOffset>
-		<DecalSize>	<CX>60</CX><CY>60</CY>	</DecalSize>
-	</Button>
-	<Button item="BW_Buff14_Button">
-		<ScreenID>Buff14</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Template>BDT_BlueBuff</Template>
-		<DecalOffset>	<X>2</X><Y>2</Y>	</DecalOffset>
-		<DecalSize>	<CX>60</CX><CY>60</CY>	</DecalSize>
-	</Button>
-	<Button item="BW_Buff15_Button">
-		<ScreenID>Buff15</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Template>BDT_BlueBuff</Template>
-		<DecalOffset>	<X>2</X><Y>2</Y>	</DecalOffset>
-		<DecalSize>	<CX>60</CX><CY>60</CY>	</DecalSize>
-	</Button>
-	<Button item="BW_Buff16_Button">
-		<ScreenID>Buff16</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Template>BDT_BlueBuff</Template>
-		<DecalOffset>	<X>2</X><Y>2</Y>	</DecalOffset>
-		<DecalSize>	<CX>60</CX><CY>60</CY>	</DecalSize>
-	</Button>
-	<Button item="BW_Buff17_Button">
-		<ScreenID>Buff17</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Template>BDT_BlueBuff</Template>
-		<DecalOffset>	<X>2</X><Y>2</Y>	</DecalOffset>
-		<DecalSize>	<CX>60</CX><CY>60</CY>	</DecalSize>
-	</Button>
-	<Button item="BW_Buff18_Button">
-		<ScreenID>Buff18</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Template>BDT_BlueBuff</Template>
-		<DecalOffset>	<X>2</X><Y>2</Y>	</DecalOffset>
-		<DecalSize>	<CX>60</CX><CY>60</CY>	</DecalSize>
-	</Button>
-	<Button item="BW_Buff19_Button">
-		<ScreenID>Buff19</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Template>BDT_BlueBuff</Template>
-		<DecalOffset>	<X>2</X><Y>2</Y>	</DecalOffset>
-		<DecalSize>	<CX>60</CX><CY>60</CY>	</DecalSize>
-	</Button>
-	<Button item="BW_Buff20_Button">
-		<ScreenID>Buff20</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Template>BDT_BlueBuff</Template>
-		<DecalOffset>	<X>2</X><Y>2</Y>	</DecalOffset>
-		<DecalSize>	<CX>60</CX><CY>60</CY>	</DecalSize>
-	</Button>
-	<Button item="BW_Buff21_Button">
-		<ScreenID>Buff21</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Template>BDT_BlueBuff</Template>
-		<DecalOffset>	<X>2</X><Y>2</Y>	</DecalOffset>
-		<DecalSize>	<CX>60</CX><CY>60</CY>	</DecalSize>
-	</Button>
-	<Button item="BW_Buff22_Button">
-		<ScreenID>Buff22</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Template>BDT_BlueBuff</Template>
-		<DecalOffset>	<X>2</X><Y>2</Y>	</DecalOffset>
-		<DecalSize>	<CX>60</CX><CY>60</CY>	</DecalSize>
-	</Button>
-	<Button item="BW_Buff23_Button">
-		<ScreenID>Buff23</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Template>BDT_BlueBuff</Template>
-		<DecalOffset>	<X>2</X><Y>2</Y>	</DecalOffset>
-		<DecalSize>	<CX>60</CX><CY>60</CY>	</DecalSize>
-	</Button>
-	<Button item="BW_Buff24_Button">
-		<ScreenID>Buff24</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Template>BDT_BlueBuff</Template>
-		<DecalOffset>	<X>2</X><Y>2</Y>	</DecalOffset>
-		<DecalSize>	<CX>60</CX><CY>60</CY>	</DecalSize>
-	</Button>
-	<Button item="BW_Buff25_Button">
-		<ScreenID>Buff25</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Template>BDT_BlueBuff</Template>
-		<DecalOffset>	<X>2</X><Y>2</Y>	</DecalOffset>
-		<DecalSize>	<CX>60</CX><CY>60</CY>	</DecalSize>
-	</Button>
-	<Button item="BW_Buff26_Button">
-		<ScreenID>Buff26</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Template>BDT_BlueBuff</Template>
-		<DecalOffset>	<X>2</X><Y>2</Y>	</DecalOffset>
-		<DecalSize>	<CX>60</CX><CY>60</CY>	</DecalSize>
-	</Button>
-	<Button item="BW_Buff27_Button">
-		<ScreenID>Buff27</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Template>BDT_BlueBuff</Template>
-		<DecalOffset>	<X>2</X><Y>2</Y>	</DecalOffset>
-		<DecalSize>	<CX>60</CX><CY>60</CY>	</DecalSize>
-	</Button>
-	<Button item="BW_Buff28_Button">
-		<ScreenID>Buff28</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Template>BDT_BlueBuff</Template>
-		<DecalOffset>	<X>2</X><Y>2</Y>	</DecalOffset>
-		<DecalSize>	<CX>60</CX><CY>60</CY>	</DecalSize>
-	</Button>
-	<Button item="BW_Buff29_Button">
-		<ScreenID>Buff29</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Template>BDT_BlueBuff</Template>
-		<DecalOffset>	<X>2</X><Y>2</Y>	</DecalOffset>
-		<DecalSize>	<CX>60</CX><CY>60</CY>	</DecalSize>
-	</Button>
-	<Button item="BW_Buff30_Button">
-		<ScreenID>Buff30</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Template>BDT_BlueBuff</Template>
-		<DecalOffset>	<X>2</X><Y>2</Y>	</DecalOffset>
-		<DecalSize>	<CX>60</CX><CY>60</CY>	</DecalSize>
-	</Button>
-	<Button item="BW_Buff31_Button">
-		<ScreenID>Buff31</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Template>BDT_BlueBuff</Template>
-		<DecalOffset>	<X>2</X><Y>2</Y>	</DecalOffset>
-		<DecalSize>	<CX>60</CX><CY>60</CY>	</DecalSize>
-	</Button>
-	<Button item="BW_Buff32_Button">
-		<ScreenID>Buff32</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Template>BDT_BlueBuff</Template>
-		<DecalOffset>	<X>2</X><Y>2</Y>	</DecalOffset>
-		<DecalSize>	<CX>60</CX><CY>60</CY>	</DecalSize>
-	</Button>
-	<Button item="BW_Buff33_Button">
-		<ScreenID>Buff33</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Template>BDT_BlueBuff</Template>
-		<DecalOffset>	<X>2</X><Y>2</Y>	</DecalOffset>
-		<DecalSize>	<CX>60</CX><CY>60</CY>	</DecalSize>
-	</Button>
-	<Button item="BW_Buff34_Button">
-		<ScreenID>Buff34</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Template>BDT_BlueBuff</Template>
-		<DecalOffset>	<X>2</X><Y>2</Y>	</DecalOffset>
-		<DecalSize>	<CX>60</CX><CY>60</CY>	</DecalSize>
-	</Button>
-	<Button item="BW_Buff35_Button">
-		<ScreenID>Buff35</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Template>BDT_BlueBuff</Template>
-		<DecalOffset>	<X>2</X><Y>2</Y>	</DecalOffset>
-		<DecalSize>	<CX>60</CX><CY>60</CY>	</DecalSize>
-	</Button>
-	<Button item="BW_Buff36_Button">
-		<ScreenID>Buff36</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Template>BDT_BlueBuff</Template>
-		<DecalOffset>	<X>2</X><Y>2</Y>	</DecalOffset>
-		<DecalSize>	<CX>60</CX><CY>60</CY>	</DecalSize>
-	</Button>
-	<Button item="BW_Buff37_Button">
-		<ScreenID>Buff37</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Template>BDT_BlueBuff</Template>
-		<DecalOffset>	<X>2</X><Y>2</Y>	</DecalOffset>
-		<DecalSize>	<CX>60</CX><CY>60</CY>	</DecalSize>
-	</Button>
-	<Button item="BW_Buff38_Button">
-		<ScreenID>Buff38</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Template>BDT_BlueBuff</Template>
-		<DecalOffset>	<X>2</X><Y>2</Y>	</DecalOffset>
-		<DecalSize>	<CX>60</CX><CY>60</CY>	</DecalSize>
-	</Button>
-	<Button item="BW_Buff39_Button">
-		<ScreenID>Buff39</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Template>BDT_BlueBuff</Template>
-		<DecalOffset>	<X>2</X><Y>2</Y>	</DecalOffset>
-		<DecalSize>	<CX>60</CX><CY>60</CY>	</DecalSize>
-	</Button>
-	<Button item="BW_Buff40_Button">
-		<ScreenID>Buff40</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Template>BDT_BlueBuff</Template>
-		<DecalOffset>	<X>2</X><Y>2</Y>	</DecalOffset>
-		<DecalSize>	<CX>60</CX><CY>60</CY>	</DecalSize>
-	</Button>
-	<Button item="BW_Buff41_Button">
-		<ScreenID>Buff41</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Template>BDT_BlueBuff</Template>
-		<DecalOffset>	<X>2</X><Y>2</Y>	</DecalOffset>
-		<DecalSize>	<CX>60</CX><CY>60</CY>	</DecalSize>
-	</Button>
-
 	<!-- Labels suited for wide horizontal -->	
 	<Label item="BW_Buff0_Label_Hor">
 		<RelativePosition>true</RelativePosition>
@@ -551,7 +247,7 @@
 		<Text>Katta's Song of Sword Dancing</Text>
 		<Font>4</Font>
 		<TextColor>	<R>197</R><G>183</G><B>255</B>	</TextColor>
-		<Size>	<CX>64</CX><CY>16</CY>	</Size>
+		<Size>	<CX>64</CX><CY>40</CY>	</Size>
 		<AlignCenter>true</AlignCenter>
 	</Label>
 	<Label item="BW_Buff1_Label_Vert">
@@ -1078,104 +774,23 @@
 
 	<!-- Vertical has labels and buttons in the same layout -->
 	<TileLayoutBox item="BW_ButtonsVertical">
+		<ScreenID>Buff_Buttons</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Style_Transparent>true</Style_Transparent>
 		<HorizontalFirst>false</HorizontalFirst>
-		<Spacing>0</Spacing>
+		<Spacing>64</Spacing>
 		<SecondarySpacing>10</SecondarySpacing>
 		<AnchorToTop>true</AnchorToTop>
 		<AnchorToLeft>false</AnchorToLeft>
 		<FirstPieceTemplate>true</FirstPieceTemplate>
-		<Pieces>BW_Buff0_Button</Pieces>
-		<Pieces>BW_Buff0_Label_Vert</Pieces>
-		<Pieces>BW_Buff1_Button</Pieces>
-		<Pieces>BW_Buff1_Label_Vert</Pieces>
-		<Pieces>BW_Buff2_Button</Pieces>
-		<Pieces>BW_Buff2_Label_Vert</Pieces>
-		<Pieces>BW_Buff3_Button</Pieces>
-		<Pieces>BW_Buff3_Label_Vert</Pieces>
-		<Pieces>BW_Buff4_Button</Pieces>
-		<Pieces>BW_Buff4_Label_Vert</Pieces>
-		<Pieces>BW_Buff5_Button</Pieces>
-		<Pieces>BW_Buff5_Label_Vert</Pieces>
-		<Pieces>BW_Buff6_Button</Pieces>
-		<Pieces>BW_Buff6_Label_Vert</Pieces>
-		<Pieces>BW_Buff7_Button</Pieces>
-		<Pieces>BW_Buff7_Label_Vert</Pieces>
-		<Pieces>BW_Buff8_Button</Pieces>
-		<Pieces>BW_Buff8_Label_Vert</Pieces>
-		<Pieces>BW_Buff9_Button</Pieces>
-		<Pieces>BW_Buff9_Label_Vert</Pieces>
-		<Pieces>BW_Buff10_Button</Pieces>
-		<Pieces>BW_Buff10_Label_Vert</Pieces>
-		<Pieces>BW_Buff11_Button</Pieces>
-		<Pieces>BW_Buff11_Label_Vert</Pieces>
-		<Pieces>BW_Buff12_Button</Pieces>
-		<Pieces>BW_Buff12_Label_Vert</Pieces>
-		<Pieces>BW_Buff13_Button</Pieces>
-		<Pieces>BW_Buff13_Label_Vert</Pieces>
-		<Pieces>BW_Buff14_Button</Pieces>
-		<Pieces>BW_Buff14_Label_Vert</Pieces>
-		<Pieces>BW_Buff15_Button</Pieces>
-		<Pieces>BW_Buff15_Label_Vert</Pieces>
-		<Pieces>BW_Buff16_Button</Pieces>
-		<Pieces>BW_Buff16_Label_Vert</Pieces>
-		<Pieces>BW_Buff17_Button</Pieces>
-		<Pieces>BW_Buff17_Label_Vert</Pieces>
-		<Pieces>BW_Buff18_Button</Pieces>
-		<Pieces>BW_Buff18_Label_Vert</Pieces>
-		<Pieces>BW_Buff19_Button</Pieces>
-		<Pieces>BW_Buff19_Label_Vert</Pieces>
-		<Pieces>BW_Buff20_Button</Pieces>
-		<Pieces>BW_Buff20_Label_Vert</Pieces>
-		<Pieces>BW_Buff21_Button</Pieces>
-		<Pieces>BW_Buff21_Label_Vert</Pieces>
-		<Pieces>BW_Buff22_Button</Pieces>
-		<Pieces>BW_Buff22_Label_Vert</Pieces>
-		<Pieces>BW_Buff23_Button</Pieces>
-		<Pieces>BW_Buff23_Label_Vert</Pieces>
-		<Pieces>BW_Buff24_Button</Pieces>
-		<Pieces>BW_Buff24_Label_Vert</Pieces>
-		<Pieces>BW_Buff25_Button</Pieces>
-		<Pieces>BW_Buff25_Label_Vert</Pieces>
-		<Pieces>BW_Buff26_Button</Pieces>
-		<Pieces>BW_Buff26_Label_Vert</Pieces>
-		<Pieces>BW_Buff27_Button</Pieces>
-		<Pieces>BW_Buff27_Label_Vert</Pieces>
-		<Pieces>BW_Buff28_Button</Pieces>
-		<Pieces>BW_Buff28_Label_Vert</Pieces>
-		<Pieces>BW_Buff29_Button</Pieces>
-		<Pieces>BW_Buff29_Label_Vert</Pieces>
-		<Pieces>BW_Buff30_Button</Pieces>
-		<Pieces>BW_Buff30_Label_Vert</Pieces>
-		<Pieces>BW_Buff31_Button</Pieces>
-		<Pieces>BW_Buff31_Label_Vert</Pieces>
-		<Pieces>BW_Buff32_Button</Pieces>
-		<Pieces>BW_Buff32_Label_Vert</Pieces>
-		<Pieces>BW_Buff33_Button</Pieces>
-		<Pieces>BW_Buff33_Label_Vert</Pieces>
-		<Pieces>BW_Buff34_Button</Pieces>
-		<Pieces>BW_Buff34_Label_Vert</Pieces>
-		<Pieces>BW_Buff35_Button</Pieces>
-		<Pieces>BW_Buff35_Label_Vert</Pieces>
-		<Pieces>BW_Buff36_Button</Pieces>
-		<Pieces>BW_Buff36_Label_Vert</Pieces>
-		<Pieces>BW_Buff37_Button</Pieces>
-		<Pieces>BW_Buff37_Label_Vert</Pieces>
-		<Pieces>BW_Buff38_Button</Pieces>
-		<Pieces>BW_Buff38_Label_Vert</Pieces>
-		<Pieces>BW_Buff39_Button</Pieces>
-		<Pieces>BW_Buff39_Label_Vert</Pieces>
-		<Pieces>BW_Buff40_Button</Pieces>
-		<Pieces>BW_Buff40_Label_Vert</Pieces>
-		<Pieces>BW_Buff41_Button</Pieces>
-		<Pieces>BW_Buff41_Label_Vert</Pieces>
+		<Pieces>BW_Player_Buff_Template</Pieces>
 	</TileLayoutBox>
 
 	<TileLayoutBox item="BW_ButtonsHorizontal">
+		<ScreenID>Buff_Buttons</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
@@ -1187,48 +802,7 @@
 		<AnchorToTop>true</AnchorToTop>
 		<AnchorToLeft>false</AnchorToLeft>
 		<FirstPieceTemplate>true</FirstPieceTemplate>
-		<Pieces>BW_Buff0_Button</Pieces>
-		<Pieces>BW_Buff1_Button</Pieces>
-		<Pieces>BW_Buff2_Button</Pieces>
-		<Pieces>BW_Buff3_Button</Pieces>
-		<Pieces>BW_Buff4_Button</Pieces>
-		<Pieces>BW_Buff5_Button</Pieces>
-		<Pieces>BW_Buff6_Button</Pieces>
-		<Pieces>BW_Buff7_Button</Pieces>
-		<Pieces>BW_Buff8_Button</Pieces>
-		<Pieces>BW_Buff9_Button</Pieces>
-		<Pieces>BW_Buff10_Button</Pieces>
-		<Pieces>BW_Buff11_Button</Pieces>
-		<Pieces>BW_Buff12_Button</Pieces>
-		<Pieces>BW_Buff13_Button</Pieces>
-		<Pieces>BW_Buff14_Button</Pieces>
-		<Pieces>BW_Buff15_Button</Pieces>
-		<Pieces>BW_Buff16_Button</Pieces>
-		<Pieces>BW_Buff17_Button</Pieces>
-		<Pieces>BW_Buff18_Button</Pieces>
-		<Pieces>BW_Buff19_Button</Pieces>
-		<Pieces>BW_Buff20_Button</Pieces>
-		<Pieces>BW_Buff21_Button</Pieces>
-		<Pieces>BW_Buff22_Button</Pieces>
-		<Pieces>BW_Buff23_Button</Pieces>
-		<Pieces>BW_Buff24_Button</Pieces>
-		<Pieces>BW_Buff25_Button</Pieces>
-		<Pieces>BW_Buff26_Button</Pieces>
-		<Pieces>BW_Buff27_Button</Pieces>
-		<Pieces>BW_Buff28_Button</Pieces>
-		<Pieces>BW_Buff29_Button</Pieces>
-		<Pieces>BW_Buff30_Button</Pieces>
-		<Pieces>BW_Buff31_Button</Pieces>
-		<Pieces>BW_Buff32_Button</Pieces>
-		<Pieces>BW_Buff33_Button</Pieces>
-		<Pieces>BW_Buff34_Button</Pieces>
-		<Pieces>BW_Buff35_Button</Pieces>
-		<Pieces>BW_Buff36_Button</Pieces>
-		<Pieces>BW_Buff37_Button</Pieces>
-		<Pieces>BW_Buff38_Button</Pieces>
-		<Pieces>BW_Buff39_Button</Pieces>
-		<Pieces>BW_Buff40_Button</Pieces>
-		<Pieces>BW_Buff41_Button</Pieces>
+		<Pieces>BW_Player_Buff_Template</Pieces>
 	</TileLayoutBox>
 
 	<!-- For horizontalish use -->
@@ -1288,6 +862,63 @@
 		<Pieces>BW_Buff41_Label_Hor</Pieces>
 	</TileLayoutBox>
 
+	<TileLayoutBox item="BW_BuffLabelsVertical">
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<Style_Transparent>true</Style_Transparent>
+		<HorizontalFirst>false</HorizontalFirst>
+		<Spacing>88</Spacing>
+		<SecondarySpacing>10</SecondarySpacing>
+		<AnchorToTop>true</AnchorToTop>
+		<AnchorToLeft>false</AnchorToLeft>
+		<TopAnchorOffset>70</TopAnchorOffset>
+		<FirstPieceTemplate>true</FirstPieceTemplate>
+		<Pieces>BW_Buff0_Label_Vert</Pieces>
+		<Pieces>BW_Buff1_Label_Vert</Pieces>
+		<Pieces>BW_Buff2_Label_Vert</Pieces>
+		<Pieces>BW_Buff3_Label_Vert</Pieces>
+		<Pieces>BW_Buff4_Label_Vert</Pieces>
+		<Pieces>BW_Buff5_Label_Vert</Pieces>
+		<Pieces>BW_Buff6_Label_Vert</Pieces>
+		<Pieces>BW_Buff7_Label_Vert</Pieces>
+		<Pieces>BW_Buff8_Label_Vert</Pieces>
+		<Pieces>BW_Buff9_Label_Vert</Pieces>
+		<Pieces>BW_Buff10_Label_Vert</Pieces>
+		<Pieces>BW_Buff11_Label_Vert</Pieces>
+		<Pieces>BW_Buff12_Label_Vert</Pieces>
+		<Pieces>BW_Buff13_Label_Vert</Pieces>
+		<Pieces>BW_Buff14_Label_Vert</Pieces>
+		<Pieces>BW_Buff15_Label_Vert</Pieces>
+		<Pieces>BW_Buff16_Label_Vert</Pieces>
+		<Pieces>BW_Buff17_Label_Vert</Pieces>
+		<Pieces>BW_Buff18_Label_Vert</Pieces>
+		<Pieces>BW_Buff19_Label_Vert</Pieces>
+		<Pieces>BW_Buff20_Label_Vert</Pieces>
+		<Pieces>BW_Buff21_Label_Vert</Pieces>
+		<Pieces>BW_Buff22_Label_Vert</Pieces>
+		<Pieces>BW_Buff23_Label_Vert</Pieces>
+		<Pieces>BW_Buff24_Label_Vert</Pieces>
+		<Pieces>BW_Buff25_Label_Vert</Pieces>
+		<Pieces>BW_Buff26_Label_Vert</Pieces>
+		<Pieces>BW_Buff27_Label_Vert</Pieces>
+		<Pieces>BW_Buff28_Label_Vert</Pieces>
+		<Pieces>BW_Buff29_Label_Vert</Pieces>
+		<Pieces>BW_Buff30_Label_Vert</Pieces>
+		<Pieces>BW_Buff31_Label_Vert</Pieces>
+		<Pieces>BW_Buff32_Label_Vert</Pieces>
+		<Pieces>BW_Buff33_Label_Vert</Pieces>
+		<Pieces>BW_Buff34_Label_Vert</Pieces>
+		<Pieces>BW_Buff35_Label_Vert</Pieces>
+		<Pieces>BW_Buff36_Label_Vert</Pieces>
+		<Pieces>BW_Buff37_Label_Vert</Pieces>
+		<Pieces>BW_Buff38_Label_Vert</Pieces>
+		<Pieces>BW_Buff39_Label_Vert</Pieces>
+		<Pieces>BW_Buff40_Label_Vert</Pieces>
+		<Pieces>BW_Buff41_Label_Vert</Pieces>
+	</TileLayoutBox>
+
 	<TileLayoutBox item="BW_SlotBackGroundsHorizontal">
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1345,7 +976,7 @@
 		<Pieces>BW_BuffBackground13</Pieces>
 		<Pieces>BW_BuffBackground14</Pieces>
 	</TileLayoutBox>
-	
+
 	<Screen item="BuffWindow">
 		<Text/>
 		<RelativePosition>false</RelativePosition>
@@ -1371,7 +1002,6 @@
 		<Escapable>false</Escapable>
 
 		<!--Horizontal Wide Buffery
-		<Pieces>TileLayoutBox:BW_SlotBackGroundsHorizontal</Pieces>
 		<Pieces>TileLayoutBox:BW_ButtonsHorizontal</Pieces>
 		<Pieces>TileLayoutBox:BW_BuffLabelsHorizontal</Pieces>
 		-->
@@ -1379,5 +1009,6 @@
 		<!-- Vertically -->
 		<Pieces>TileLayoutBox:BW_SlotBackGroundsVertical</Pieces>
 		<Pieces>TileLayoutBox:BW_ButtonsVertical</Pieces>
+		<Pieces>TileLayoutBox:BW_BuffLabelsVertical</Pieces>
 	</Screen>
 </XML>

@@ -757,16 +757,26 @@
 	<InvSlot item="InvSlot32">
 		<ScreenID>InvSlot32</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>130</X>
-			<Y>349</Y>
-		</Location>
-		<Size>
-			<CX>40</CX>
-			<CY>40</CY>
-		</Size>
+		<Location>	<X>130</X><Y>349</Y>	</Location>
+		<Size>	<CX>40</CX><CY>40</CY>	</Size>
 		<Background>A_RecessedBox</Background>
 		<EQType>inventory/Equip 32</EQType>
+	</InvSlot>
+	<InvSlot item="InvSlot33">
+		<ScreenID>InvSlot33</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>	<X>130</X><Y>391</Y>	</Location>
+		<Size>	<CX>40</CX><CY>40</CY>	</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Equip 33</EQType>
+	</InvSlot>
+	<InvSlot item="InvSlot34">
+		<ScreenID>InvSlot34</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>	<X>130</X><Y>391</Y>	</Location>
+		<Size>	<CX>40</CX><CY>40</CY>	</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Equip 34</EQType>
 	</InvSlot>
 	<Button item="IW_ConsumeKrono">
 		<ScreenID>IW_ConsumeKrono</ScreenID>

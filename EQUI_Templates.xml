@@ -4289,6 +4289,10 @@
 		<Normal>A_RecessedBox</Normal>
 		<NormalDecal>A_CopperCoin</NormalDecal>
 	</ButtonDrawTemplate>
+	<ButtonDrawTemplate item="BDT_TargetBuff">
+		<Normal>A_RecessedBox</Normal>
+		<NormalDecal>A_DragItem</NormalDecal>
+	</ButtonDrawTemplate>
 	<ButtonDrawTemplate item="BDT_DragItem">
 		<Normal>A_RecessedBox</Normal>
 		<NormalDecal>A_DragItem</NormalDecal>
