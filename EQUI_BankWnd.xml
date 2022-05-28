@@ -408,17 +408,17 @@
 		<ScreenID>AltStorageButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>4</X>
+			<X>3</X>
 			<Y>333</Y>
 		</Location>
 		<Size>
-			<CX>85</CX>
-			<CY>20</CY>
+			<CX>47</CX>
+			<CY>22</CY>
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference>Click on this button to open the Alt Storage access window.</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text>Shroud Bank</Text>
+		<Text>Shroud</Text>
 		<TextColor>
 			<R>255</R>
 			<G>255</G>
@@ -431,6 +431,23 @@
 			<Disabled>A_BtnDisabled</Disabled>
 			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
+	</Button>
+	<Button item="BW_DragonHoard">
+		<ScreenID>DragonHoard</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>51</X>
+			<Y>333</Y>
+		</Location>
+		<Size>
+			<CX>43</CX>
+			<CY>22</CY>
+		</Size>
+		<Style_Transparent>false</Style_Transparent>
+		<TooltipReference>Click on this button to open your Dragon's Hoard.</TooltipReference>
+		<Style_Checkbox>false</Style_Checkbox>
+		<Text>Hoard</Text>
+		<Template>BDT_Normal</Template>
 	</Button>
 	<Button item="BW_Money0">
 		<ScreenID>BW_Money0</ScreenID>
@@ -704,6 +721,7 @@
 		<Pieces>BW_ChangeButton</Pieces>
 		<Pieces>BW_SharedBankLabel</Pieces>
 		<Pieces>BW_AltStorageButton</Pieces>
+		<Pieces>BW_DragonHoard</Pieces>
 		<Pieces>BW_FindItemButton</Pieces>
 	</Screen>
 </XML>
